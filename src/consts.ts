@@ -37,7 +37,7 @@ export const FANTASYBOOKS: Page = {
   DESCRIPTION: "Fantasy Books I have worked.",
 }
 
-// Links
+// Links Overview
 export const LINKS: Links = [
   { 
     TEXT: "Home", 
