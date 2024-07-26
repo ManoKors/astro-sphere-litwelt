@@ -1,7 +1,7 @@
 ---
 title: "Fantasy One"
 coverImage: "/199261152.jpeg"
-summary: "Lorem ipsum dolor sit amet"
+summary: "Lorem ipsum dolor sit ameeaat"
 date: "Mar 18 2022"
 draft: false
 tags:
