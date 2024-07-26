@@ -9,10 +9,12 @@ type Props = {
 export default function ArrowCard({ entry, pill }: Props) {
   return (
     <a href={`/${entry.collection}/${entry.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
-      <div class="w-24 h-auto flex-shrink-0">
-        <img src="https://m.media-amazon.com/images/I/81tBoQP5V+L._AC_UF1000,1000_QL80_.jpg" alt="Book cover" class="w-full h-auto object-cover rounded-lg" />
-      </div>
-      <div class="w-full group-hover:text-black group-hover:dark:text-white blend ml-4">
+      {entry.data.coverImage && (
+        <div class="w-24 h-auto flex-shrink-0">
+          <img src={entry.data.coverImage} alt="Book cover" class="w-full h-auto object-cover rounded-lg" />
+        </div>
+      )}
+      <div class={`w-full group-hover:text-black group-hover:dark:text-white blend ${entry.data.coverImage ? 'ml-4' : ''}`}>
         <div class="flex flex-wrap items-center gap-2">
           {pill && (
             <div class="text-sm capitalize px-2 py-0.5 rounded-full border border-black/15 dark:border-white/25">
