@@ -8,15 +8,15 @@ type Props = {
 }
 
 export default function ArrowCard({entry, pill, image}: Props) {
-    // Dummy image URL if no image is provided
+    // Use the provided image or a default image
     const imageUrl = image || "https://m.media-amazon.com/images/I/81tBoQP5V+L._AC_UF1000,1000_QL80_.jpg";
 
     return (
-      <a href={`/${entry.collection}/${entry.slug}`} class="group flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
+      <a href={`/${entry.collection}/${entry.slug}`} class="group flex flex-col border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
       
-      {/* Image with custom rounding */}
-      <div class="flex-shrink-0 w-24 h-24">
-        <img src={imageUrl} alt={entry.data.title} class="w-full h-full object-cover rounded-tl-lg rounded-bl-lg" />
+      {/* Image with aspect ratio */}
+      <div class="relative w-full aspect-w-4 aspect-h-3">
+        <img src={imageUrl} alt={entry.data.title} class="absolute inset-0 w-full h-full object-cover rounded-tl-lg rounded-bl-lg" />
       </div>
 
       <div class="flex-1 p-4">
