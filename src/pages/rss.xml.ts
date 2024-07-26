@@ -14,7 +14,7 @@ export async function GET(context: Context) {
   // Debugging: Log the collections
   console.log("Posts:", posts)
   console.log("Projects:", projects)
-  console.log("Fantasy:", fantasybooks)
+  console.log("Fantasybooks:", fantasybooks)
 
   const items = [...posts, ...projects, ...fantasybooks]
 
@@ -32,8 +32,8 @@ export async function GET(context: Context) {
         ? `/blog/${item.slug}/`
         : item.slug.startsWith("projects")
         ? `/projects/${item.slug}/`
-        : item.slug.startsWith("fantasy")
-        ? `/fantasy/${item.slug}/`
+        : item.slug.startsWith("fantasybooks")
+        ? `/fantasybooks/${item.slug}/`
         : `/`,  // Fallback if the slug does not match any known categories
     })),
   })
