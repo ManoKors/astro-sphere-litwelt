@@ -25,7 +25,11 @@ export async function GET(context: Context) {
       pubDate: item.data.date,
       link: item.slug.startsWith("blog")
         ? `/blog/${item.slug}/`
-        : `/projects/${item.slug}/`,
+        : item.slug.startsWith("projects")
+        ? `/projects/${item.slug}/`
+        : item.slug.startsWith("fantasybooks")
+        ? `/fantasybooks/${item.slug}/`
+        : `/`,  // Fallback if the slug does not match any known categories
     })),
   })
 }
