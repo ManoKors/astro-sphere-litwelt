@@ -9,7 +9,7 @@ import ArticleBottomLayout from "@layouts/ArticleBottomLayout.astro"
 // Create the static fantasybook pages
 export async function getStaticPaths() {
 	const fantasybooks = await getCollection("fantasybooks")
-	return fantasybooks.map((project) => ({
+	return fantasybooks.map((fantasybook) => ({
 		params: { slug: fantasybook.slug },
 		props: fantasybook,
 	}))
