@@ -2,12 +2,12 @@ import { formatDate } from "@lib/utils";
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"fantasybooks">;
+  entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"fantasybooks"> & { data: EntryData };
   pill?: boolean;
 };
 
 export default function ArrowCard({ entry, pill }: Props) {
-  const hasCoverImage = entry.data.coverImage !== undefined;
+  const hasCoverImage = 'coverImage' in entry.data && entry.data.coverImage !== undefined;
 
   return (
     <a href={`/${entry.collection}/${entry.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">

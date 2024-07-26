@@ -18,6 +18,7 @@ const blog = defineCollection({
     date: z.coerce.date(),
     tags: z.array(z.string()),
     draft: z.boolean().optional(),
+    coverImage: z.string().optional(), // Added coverImage property
   }),
 })
 
@@ -31,6 +32,7 @@ const projects = defineCollection({
     draft: z.boolean().optional(),
     demoUrl: z.string().optional(),
     repoUrl: z.string().optional(),
+    coverImage: z.string().optional(), // Added coverImage property
   }),
 })
 
@@ -52,6 +54,7 @@ const fantasybooks = defineCollection({
     draft: z.boolean().optional(),
     demoUrl: z.string().optional(),
     repoUrl: z.string().optional(),
+    coverImage: z.string().optional(), // Added coverImage property
   }),
 })
 
