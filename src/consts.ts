@@ -32,7 +32,7 @@ export const SEARCH: Page = {
 }
 
 // Fantasy Bücher Page
-export const FANTASYBOOKS: Page = {
+export const FANTASY: Page = {
   TITLE: "Fantasy Bücher",
   DESCRIPTION: "Fantasy Books I have worked.",
 }
