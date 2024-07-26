@@ -4,11 +4,18 @@ import type { CollectionEntry } from "astro:content"
 type Props = {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"fantasybooks">
   pill?: boolean
+  image?: string // Optional image URL
 }
 
-export default function ArrowCard({entry, pill}: Props) {
+export default function ArrowCard({entry, pill, image}: Props) {
     return (
       <a href={`/${entry.collection}/${entry.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
+      
+      {/* Conditionally render the image */}
+      {image && (
+        <img src={image} alt={entry.data.title} class="w-16 h-16 object-cover rounded-lg" />
+      )}
+
       <div class="w-full group-hover:text-black group-hover:dark:text-white blend">
         <div class="flex flex-wrap items-center gap-2">
           {pill &&
@@ -28,7 +35,7 @@ export default function ArrowCard({entry, pill}: Props) {
           {entry.data.summary}
         </div>
         <ul class="flex flex-wrap mt-2 gap-1">
-          {entry.data.tags.map((tag:string) => ( // this line has an error; Parameter 'tag' implicitly has an 'any' type.ts(7006)
+          {entry.data.tags.map((tag: string) => (
             <li class="text-xs uppercase py-0.5 px-1 rounded bg-black/5 dark:bg-white/20 text-black/75 dark:text-white/75">
               {tag}
             </li>
