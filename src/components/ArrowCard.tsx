@@ -1,8 +1,34 @@
 import { formatDate } from "@lib/utils";
 import type { CollectionEntry } from "astro:content";
 
+interface BaseEntryData {
+  date: Date;
+  title: string;
+  summary: string;
+  tags: string[];
+  draft?: boolean;
+}
+
+interface BlogEntryData extends BaseEntryData {
+  coverImage?: string;
+}
+
+interface ProjectEntryData extends BaseEntryData {
+  demoUrl?: string;
+  repoUrl?: string;
+  coverImage?: string;
+}
+
+interface FantasyBooksEntryData extends BaseEntryData {
+  coverImage?: string;
+}
+
+type EntryData = BlogEntryData | ProjectEntryData | FantasyBooksEntryData;
+
 type Props = {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"fantasybooks"> & { data: EntryData };
+  entry: CollectionEntry<"blog"> & { data: BlogEntryData } |
+         CollectionEntry<"projects"> & { data: ProjectEntryData } |
+         CollectionEntry<"fantasybooks"> & { data: FantasyBooksEntryData };
   pill?: boolean;
 };
 
