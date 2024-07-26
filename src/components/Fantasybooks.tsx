@@ -59,9 +59,9 @@ export default function Fantasybooks({ data, tags }: Props) {
             SHOWING {fantasybooks().length} OF {data.length} FANTASYBOOKS
           </div>
           <ul class="flex flex-col gap-3">
-            {fantasybooks().map((project) => (
+            {fantasybooks().map((fantasybook) => (
               <li>
-                <ArrowCard entry={project} />
+                <ArrowCard entry={fantasybook} />
               </li>
             ))}
           </ul>
