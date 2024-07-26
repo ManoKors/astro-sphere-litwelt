@@ -4,12 +4,22 @@ import type { CollectionEntry } from "astro:content"
 type Props = {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"fantasybooks">
   pill?: boolean
+  image?: string // Optional image URL
 }
 
-export default function ArrowCard({entry, pill}: Props) {
+export default function ArrowCard({entry, pill, image}: Props) {
+    // Dummy image URL if no image is provided
+    const imageUrl = image || "https://picsum.photos/100";
+
     return (
-      <a href={`/${entry.collection}/${entry.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
-      <div class="w-full group-hover:text-black group-hover:dark:text-white blend">
+      <a href={`/${entry.collection}/${entry.slug}`} class="group flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
+      
+      {/* Image with custom rounding */}
+      <div class="flex-shrink-0 w-24 h-24">
+        <img src={imageUrl} alt={entry.data.title} class="w-full h-full object-cover rounded-tl-lg rounded-bl-lg" />
+      </div>
+
+      <div class="flex-1 p-4">
         <div class="flex flex-wrap items-center gap-2">
           {pill &&
             <div class="text-sm capitalize px-2 py-0.5 rounded-full border border-black/15 dark:border-white/25">
@@ -24,11 +34,11 @@ export default function ArrowCard({entry, pill}: Props) {
           {entry.data.title}
         </div>
 
-        <div class="text-sm line-clamp-2">
+        <div class="text-sm line-clamp-2 mt-1">
           {entry.data.summary}
         </div>
         <ul class="flex flex-wrap mt-2 gap-1">
-          {entry.data.tags.map((tag:string) => ( // this line has an error; Parameter 'tag' implicitly has an 'any' type.ts(7006)
+          {entry.data.tags.map((tag: string) => (
             <li class="text-xs uppercase py-0.5 px-1 rounded bg-black/5 dark:bg-white/20 text-black/75 dark:text-white/75">
               {tag}
             </li>
