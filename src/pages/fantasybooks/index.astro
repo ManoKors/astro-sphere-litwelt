@@ -6,11 +6,11 @@ import BottomLayout from "@layouts/BottomLayout.astro"
 import Projects from "@components/Fantasybooks"
 import { FANTASYBOOKS } from "@consts"
 
-const projects = (await getCollection("fantasybooks"))
+const fantasybooks = (await getCollection("fantasybooks"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
 
-const tags = [...new Set(projects.flatMap(project => project.data.tags))]
+const tags = [...new Set(fantasybooks.flatMap(project => project.data.tags))]
   .sort((a, b) => a.localeCompare(b))
 ---
 
