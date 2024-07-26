@@ -4,7 +4,7 @@ import PageLayout from "@layouts/PageLayout.astro"
 import TopLayout from "@layouts/TopLayout.astro"
 import BottomLayout from "@layouts/BottomLayout.astro"
 import Fantasybooks from "@components/Fantasybooks"
-import { FANTASY } from "@consts"
+import { FANTASYBOOKS } from "@consts"
 
 const fantasybooks = (await getCollection("fantasybooks"))
   .filter(fantasybook => !fantasybook.data.draft)
@@ -14,10 +14,10 @@ const tags = [...new Set(fantasybooks.flatMap(fantasybook => fantasybook.data.ta
   .sort((a, b) => a.localeCompare(b))
 ---
 
-<PageLayout title={FANTASY.TITLE} description={FANTASY.DESCRIPTION}>
+<PageLayout title={FANTASYBOOKS.TITLE} description={FANTASYBOOKS.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading">
-      {FANTASY.TITLE}
+      {FANTASYBOOKS.TITLE}
     </div>
   </TopLayout>
   <BottomLayout>

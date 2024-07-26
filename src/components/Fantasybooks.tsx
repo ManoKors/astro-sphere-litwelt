@@ -56,7 +56,7 @@ export default function Fantasybooks({ data, tags }: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            SHOWING {fantasybooks().length} OF {data.length} FANTASY
+            SHOWING {fantasybooks().length} OF {data.length} FANTASYBOOKS
           </div>
           <ul class="flex flex-col gap-3">
             {fantasybooks().map((fantasybook) => (
