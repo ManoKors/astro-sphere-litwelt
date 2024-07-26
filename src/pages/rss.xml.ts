@@ -32,7 +32,7 @@ export async function GET(context: Context) {
         ? `/blog/${item.slug}/`
         : item.slug.startsWith("projects")
         ? `/projects/${item.slug}/`
-        : item.slug.startsWith("fantasybooks")
+        : item.slug.startsWith("fantasy")
         ? `/fantasybooks/${item.slug}/`
         : `/`,  // Fallback if the slug does not match any known categories
     })),
