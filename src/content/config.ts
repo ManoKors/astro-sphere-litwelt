@@ -55,7 +55,6 @@ const fantasybooks = defineCollection({
     demoUrl: z.string().optional(),
     repoUrl: z.string().optional(),
     coverImage: z.string().optional(), // Added coverImage property
-    year: z.number(), // Added year property
   }),
 })
 
