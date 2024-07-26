@@ -1,5 +1,6 @@
 ---
 title: "Fantasy One"
+year: 2023
 coverImage: "/199261152.jpeg"
 summary: "Lorem ipsum dolor sit amet"
 date: "Mar 18 2022"
