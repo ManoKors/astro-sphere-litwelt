@@ -42,7 +42,7 @@ export default function ArrowCard({ entry, pill }: Props) {
           <img src={entry.data.coverImage} alt="Book cover" class="w-full h-auto object-cover rounded-lg" />
         </div>
       )}
-      <div class={`w-full group-hover:text-black group-hover:dark:text-white blend ${hasCoverImage ? 'ml-4' : ''}`}>
+      <div class={`w-full group-hover:text-black group-hover:dark:text-white blend ${hasCoverImage ? 'ml-2' : ''}`}>
         <div class="flex flex-wrap items-center gap-2">
           {pill && (
             <div class="text-sm capitalize px-2 py-0.5 rounded-full border border-black/15 dark:border-white/25">
