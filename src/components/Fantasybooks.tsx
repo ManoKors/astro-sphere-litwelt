@@ -10,16 +10,25 @@ type Props = {
 
 export default function Fantasybooks({ data, tags }: Props) {
   const [filter, setFilter] = createSignal(new Set<string>())
-  const [fantasybooks, setProjects] = createSignal<CollectionEntry<"fantasybooks">[]>([])
+  const [yearRange, setYearRange] = createSignal([2000, 2024])
+  const [fantasybooks, setFantasybooks] = createSignal<CollectionEntry<"fantasybooks">[]>([])
 
   createEffect(() => {
-    setProjects(data.filter((entry) => 
-      Array.from(filter()).every((value) => 
-        entry.data.tags.some((tag:string) => 
-          tag.toLowerCase() === String(value).toLowerCase()
+    setFantasybooks(
+      data.filter((entry) => {
+        const tagsMatch = Array.from(filter()).every((value) => 
+          entry.data.tags.some((tag: string) => 
+            tag.toLowerCase() === String(value).toLowerCase()
+          )
         )
-      )
-    ))
+        
+        const year = entry.data.year // Assuming the year is stored in entry.data.year
+        const [minYear, maxYear] = yearRange()
+        const yearInRange = year >= minYear && year <= maxYear
+        
+        return tagsMatch && yearInRange
+      })
+    )
   })
 
   function toggleTag(tag: string) {
@@ -29,6 +38,12 @@ export default function Fantasybooks({ data, tags }: Props) {
         : [...prev, tag]
       )
     )
+  }
+
+  function handleYearChange(e: Event) {
+    const target = e.target as HTMLInputElement
+    const [minYear, maxYear] = target.value.split(',').map(Number)
+    setYearRange([minYear, maxYear])
   }
 
   return (
@@ -51,6 +66,22 @@ export default function Fantasybooks({ data, tags }: Props) {
               )}
             </For>
           </ul>
+          <div class="mt-4">
+            <div class="text-sm font-semibold uppercase mb-2 text-black dark:text-white">Year Range</div>
+            <input 
+              type="range" 
+              min="1900" 
+              max="2024" 
+              step="1" 
+              value={yearRange().join(',')} 
+              onInput={handleYearChange}
+              class="w-full"
+            />
+            <div class="flex justify-between text-sm text-gray-600 dark:text-gray-400">
+              <span>{yearRange()[0]}</span>
+              <span>{yearRange()[1]}</span>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-span-3 sm:col-span-2">
