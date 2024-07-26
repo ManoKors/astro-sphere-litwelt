@@ -5,6 +5,7 @@ summary: "Lorem ipsum dolor sit amet"
 date: "Mar 18 2022"
 draft: false
 tags:
+- High Fantasy
 - Astro
 - Javascript
 - Typescript
