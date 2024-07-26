@@ -3,7 +3,7 @@ import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import TopLayout from "@layouts/TopLayout.astro"
 import BottomLayout from "@layouts/BottomLayout.astro"
-import fantasybooks from "@components/Fantasybooks"
+import Fantasybooks from "@components/Fantasybooks"
 import { FANTASYBOOKS } from "@consts"
 
 const fantasybooks = (await getCollection("fantasybooks"))
@@ -22,7 +22,7 @@ const tags = [...new Set(fantasybooks.flatMap(project => project.data.tags))]
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Projects client:load tags={tags} data={fantasybooks} />
+      <Fantasybooks client:load tags={tags} data={fantasybooks} />
     </div>
   </BottomLayout>
 </PageLayout>
