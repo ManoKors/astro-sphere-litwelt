@@ -10,7 +10,7 @@ const fantasybooks = (await getCollection("fantasybooks"))
   .filter(fantasybook => !fantasybook.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
 
-const tags = [...new Set(fantasybooks.flatMap(project => project.data.tags))]
+const tags = [...new Set(fantasybooks.flatMap(fantasybook => fantasybook.data.tags))]
   .sort((a, b) => a.localeCompare(b))
 ---
 
