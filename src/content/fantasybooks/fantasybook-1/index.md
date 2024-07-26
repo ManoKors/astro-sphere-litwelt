@@ -1,6 +1,6 @@
 ---
 title: "Fantasy One"
-coverImage: "https://m.media-amazon.com/images/I/81tBoQP5V+L._AC_UF1000,1000_QL80_.jpg"
+coverImage: "src/content/bookcover.jpg"
 summary: "Lorem ipsum dolor sit amet"
 date: "Mar 18 2022"
 draft: false
