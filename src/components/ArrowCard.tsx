@@ -1,9 +1,6 @@
 import { formatDate } from "@lib/utils"
 import type { CollectionEntry } from "astro:content"
 
-// Importieren Sie das Bild für die Verwendung
-import bookCover from '../content/bookcover.jpg'; // Passen Sie den Pfad an, wenn nötig
-
 type Props = {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"fantasybooks">
   pill?: boolean
@@ -11,13 +8,13 @@ type Props = {
 }
 
 export default function ArrowCard({entry, pill, image}: Props) {
-    // Verwenden Sie entweder das bereitgestellte Bild oder das lokale Bild
-    const imageUrl = image || bookCover;
+    // Dummy image URL if no image is provided
+    const imageUrl = image || "https://m.media-amazon.com/images/I/81tBoQP5V+L._AC_UF1000,1000_QL80_.jpg";
 
     return (
       <a href={`/${entry.collection}/${entry.slug}`} class="group flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 transition-colors duration-300 ease-in-out">
       
-      {/* Bild mit benutzerdefinierten Rundungen */}
+      {/* Image with custom rounding */}
       <div class="flex-shrink-0 w-24 h-24">
         <img src={imageUrl} alt={entry.data.title} class="w-full h-full object-cover rounded-tl-lg rounded-bl-lg" />
       </div>
