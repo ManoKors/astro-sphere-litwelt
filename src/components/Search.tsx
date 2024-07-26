@@ -1,17 +1,21 @@
 import type { CollectionEntry } from "astro:content"
-import { createEffect, createSignal } from "solid-js"
+import { createSignal, createEffect } from "solid-js"
 import Fuse from "fuse.js"
 import ArrowCard from "@components/ArrowCard"
 
 type Props = {
-  data: CollectionEntry<"blog">[]
+  blogData: CollectionEntry<"blog">[],
+  fantasybookData: CollectionEntry<"fantasybooks">[],
 }
 
-export default function Search({data}: Props) {
+export default function Search({ blogData, fantasybookData }: Props) {
   const [query, setQuery] = createSignal("")
-  const [results, setResults] = createSignal<CollectionEntry<"blog">[]>([])
+  const [results, setResults] = createSignal<CollectionEntry<"blog"> | CollectionEntry<"fantasybooks">[]>([])
 
-  const fuse = new Fuse(data, {
+  // Combine blog and fantasybooks data
+  const combinedData = [...blogData, ...fantasybookData]
+
+  const fuse = new Fuse(combinedData, {
     keys: ["slug", "data.title", "data.summary", "data.tags"],
     includeMatches: true,
     minMatchCharLength: 2,
