@@ -10,10 +10,10 @@ type Props = {
 
 export default function Fantasybooks({ data, tags }: Props) {
   const [filter, setFilter] = createSignal(new Set<string>())
-  const [fantasybooks, setProjects] = createSignal<CollectionEntry<"fantasybooks">[]>([])
+  const [fantasybooks, setFantasybooks] = createSignal<CollectionEntry<"fantasybooks">[]>([])
 
   createEffect(() => {
-    setProjects(data.filter((entry) => 
+    setFantasybooks(data.filter((entry) => 
       Array.from(filter()).every((value) => 
         entry.data.tags.some((tag:string) => 
           tag.toLowerCase() === String(value).toLowerCase()
