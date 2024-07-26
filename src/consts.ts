@@ -31,6 +31,12 @@ export const SEARCH: Page = {
   DESCRIPTION: "Search all posts and projects by keyword.",
 }
 
+// Work Page
+export const FANTASYBOOKS: Page = {
+  TITLE: "Fantasy Books",
+  DESCRIPTION: "Fantasy Books I have worked.",
+}
+
 // Links
 export const LINKS: Links = [
   { 
@@ -48,6 +54,10 @@ export const LINKS: Links = [
   { 
     TEXT: "Projects", 
     HREF: "/projects", 
+  },
+  { 
+    TEXT: "Fantasy Books", 
+    HREF: "/fantasybooks", 
   },
 ]
 
