@@ -7,14 +7,9 @@ type Context = {
 }
 
 export async function GET(context: Context) {
-  const posts = await getCollection("blog")
+	const posts = await getCollection("blog")
   const projects = await getCollection("projects")
   const fantasybooks = await getCollection("fantasybooks")
-
-  // Debugging: Log the collections
-  console.log("Posts:", posts)
-  console.log("Projects:", projects)
-  console.log("Fantasybooks:", fantasybooks)
 
   const items = [...posts, ...projects, ...fantasybooks]
 
@@ -32,7 +27,7 @@ export async function GET(context: Context) {
         ? `/blog/${item.slug}/`
         : item.slug.startsWith("projects")
         ? `/projects/${item.slug}/`
-        : item.slug.startsWith("fantasy")
+        : item.slug.startsWith("fantasybooks")
         ? `/fantasybooks/${item.slug}/`
         : `/`,  // Fallback if the slug does not match any known categories
     })),
