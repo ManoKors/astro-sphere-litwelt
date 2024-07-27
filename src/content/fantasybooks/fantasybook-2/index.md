@@ -1,7 +1,7 @@
 ---
 title: "Fantasy Two"
 summary: "Lorem ipsum dolor sit amet"
-date: "Mar 18 2022"
+date: "Susanne Blücher Schnaß"
 draft: false
 tags:
 - Astro
