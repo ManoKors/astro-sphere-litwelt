@@ -13,6 +13,8 @@ const { title, summary, date, coverImage } = data
 const demoUrl = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
 const repoUrl = collection === "projects" || collection === "fantasybooks" ? data.repoUrl : null
 const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
+
+const authorUrl = bookAuthor ? `/authors/${bookAuthor.replace(/\s+/g, '-').toLowerCase()}` : null
 ---
 
 <div class="container mx-auto p-4">
@@ -47,7 +49,7 @@ const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
       </h1>
       {bookAuthor && 
       <div class="mt-1 text-lg text-gray-600 dark:text-gray-400 mb-4">
-        By {bookAuthor}
+        <a href={authorUrl} class="text-blue-500 hover:underline">By {bookAuthor}</a>
       </div>
       }
       <div class="mt-1 text-base text-gray-700 dark:text-gray-300 italic">
