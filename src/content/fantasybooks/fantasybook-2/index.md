@@ -1,7 +1,7 @@
 ---
 title: "Fantasy Two"
 summary: "Lorem ipsum dolor sit amet"
-date: "Susanne Blücher Schnaßer"
+date: "Susanne Blücher"
 draft: false
 tags:
 - Astro
