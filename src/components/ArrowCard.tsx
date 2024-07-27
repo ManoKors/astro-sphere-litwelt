@@ -42,7 +42,7 @@ export default function ArrowCard({ entry, pill }: Props) {
           <img src={entry.data.coverImage} alt="Book cover" class="w-full h-auto object-cover rounded-lg" />
         </div>
       )}
-      <div class="w-full group-hover:text-black group-hover:dark:text-white group-hover:underline blend">
+      <div class="w-full group-hover:text-black group-hover:dark:text-white blend">
         <div class="flex flex-wrap items-center gap-2">
           {pill && (
             <div class="text-sm capitalize px-2 py-0.5 rounded-full border border-black/15 dark:border-white/25">
@@ -53,7 +53,7 @@ export default function ArrowCard({ entry, pill }: Props) {
             {formatDate(entry.data.date)}
           </div>
         </div>
-        <div class="font-semibold mt-3 text-black dark:text-white">
+        <div class="font-semibold mt-3 text-black dark:text-white group-hover:underline transition-all duration-500 ease-in-out">
           {entry.data.title}
         </div>
         <div class="text-sm line-clamp-2">
