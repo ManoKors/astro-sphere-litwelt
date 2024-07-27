@@ -17,10 +17,6 @@ const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
 const createAuthorUrl = (name: string) => {
   return name
     .replace(/\./g, '') // Remove dots
-    .replace(/ä/g, 'ae')
-    .replace(/ö/g, 'oe')
-    .replace(/ü/g, 'ue')
-    .replace(/ß/g, 'ss')
     .replace(/\s+/g, '-')
     .toLowerCase()
 }
