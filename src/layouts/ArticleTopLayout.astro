@@ -50,8 +50,8 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
         {title}
       </h1>
       {series && 
-      <div class="mt-1 text-lg text-gray-600 dark:text-gray-400 mb-4">
-        Part of the series: <span class="font-semibold">{series}</span>
+      <div class="mt-1 text-lg text-gray-600 dark:text-gray-400 mb-4 italic">
+        <span class="font-semibold">{series}</span>
       </div>
       }
       {bookAuthor && 
