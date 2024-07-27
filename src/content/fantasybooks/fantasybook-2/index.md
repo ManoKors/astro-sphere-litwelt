@@ -1,10 +1,9 @@
 ---
 title: "Fantasy Two"
-series: "The Hatchy #1"
 summary: "Lorem ipsum dolor sit amet"
 date: "Mar 18 2022"
 bookauthor: "Susanne"
-series: "The Hatchy 1"
+series: "The Hatchy #1"
 draft: false
 tags:
 - Astro
