@@ -8,7 +8,7 @@ type Props = {
 
 const { entry } = Astro.props
 const { collection, data, body } = entry
-const { title, summary, date, coverImage } = data
+const { title, series, summary, date, coverImage } = data
 
 const demoUrl = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
 const repoUrl = collection === "projects" || collection === "fantasybooks" ? data.repoUrl : null
@@ -47,6 +47,11 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
       <h1 class="text-3xl font-semibold text-black dark:text-white mt-2">
         {title}
       </h1>
+      {series && 
+      <div class="mt-1 text-lg text-gray-600 dark:text-gray-400 mb-4">
+        Part of the series: <span class="font-semibold">{series}</span>
+      </div>
+      }
       {bookAuthor && 
       <div class="mt-1 text-lg text-gray-600 dark:text-gray-400 mb-4">
         Von <a href={authorUrl} class="text-gray-600 hover:underline transition-colors duration-300 ease-in-out">{bookAuthor}</a>
