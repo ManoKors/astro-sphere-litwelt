@@ -14,7 +14,7 @@ const demoUrl = collection === "projects" || collection === "fantasybooks" ? dat
 const repoUrl = collection === "projects" || collection === "fantasybooks" ? data.repoUrl : null
 const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
 
-const authorUrl = bookAuthor ? `/authors/${bookAuthor.replace(/\s+/g, '-').toLowerCase()}` : null
+const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLowerCase()}` : null
 ---
 
 <div class="container mx-auto p-4">
@@ -49,7 +49,7 @@ const authorUrl = bookAuthor ? `/authors/${bookAuthor.replace(/\s+/g, '-').toLow
       </h1>
       {bookAuthor && 
       <div class="mt-1 text-lg text-gray-600 dark:text-gray-400 mb-4">
-        <a href={authorUrl} class="text-gray-600 hover:underline">By {bookAuthor}</a>
+        Von <a href={authorUrl} class="text-gray-600 hover:underline transition-colors duration-300 ease-in-out">{bookAuthor}</a>
       </div>
       }
       <div class="mt-1 text-base text-gray-700 dark:text-gray-300 italic">
