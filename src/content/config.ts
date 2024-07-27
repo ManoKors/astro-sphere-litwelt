@@ -48,6 +48,7 @@ const fantasybooks = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
+    series: z.string().optional(), // Optional bookseries property
     summary: z.string(),
     date: z.coerce.date(),
     bookauthor: z.string().optional(), // Added bookauthor property
