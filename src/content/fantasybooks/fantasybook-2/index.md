@@ -2,7 +2,7 @@
 title: "Fantasy Two"
 summary: "Lorem ipsum dolor sit amet"
 date: "Mar 18 2022"
-bookauthor: "Susanne Schneißer Bülaw"
+bookauthor: "Susanne"
 draft: false
 tags:
 - Astro
