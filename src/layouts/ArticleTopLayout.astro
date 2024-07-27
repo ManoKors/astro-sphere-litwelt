@@ -8,12 +8,13 @@ type Props = {
 
 const { entry } = Astro.props
 const { collection, data, body } = entry
-const { title, series, summary, date, coverImage } = data
+const { title, summary, date, coverImage } = data
 
+// Accessing properties conditionally based on the collection type
+const series = collection === "fantasybooks" ? data.series : null
+const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
 const demoUrl = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
 const repoUrl = collection === "projects" || collection === "fantasybooks" ? data.repoUrl : null
-const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
-const bookSeries = collection === "fantasybooks" ? data.series : null
 
 const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLowerCase()}` : null
 ---
@@ -50,7 +51,7 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
       </h1>
       {series && 
       <div class="mt-1 text-lg text-gray-600 dark:text-gray-400 mb-4">
-        Part of the series: <span class="font-semibold">{bookSeries}</span>
+        Part of the series: <span class="font-semibold">{series}</span>
       </div>
       }
       {bookAuthor && 
