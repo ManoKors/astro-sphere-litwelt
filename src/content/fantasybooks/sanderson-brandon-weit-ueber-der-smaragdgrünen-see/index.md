@@ -25,7 +25,7 @@ Die Geschichte handelt von Tress, einem jungen Mädchen, das auf der winzigen In
 
 Als Charlie nicht zurückkehrt und Tress erfährt, dass er von einer Hexe in der Mitternachtsee gefangen gehalten wird, beschließt sie, ihn zu retten. Ihre Reise führt sie auf ein Piratenschiff, wo sie lernt, mit den magischen Sporen umzugehen, die die verschiedenen Meere von Lumar prägen. Diese Sporen haben besondere Eigenschaften und reagieren auf verschiedene Stoffe, was zu zahlreichen Abenteuern und Gefahren führt.
 
-![»Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/tress-weit-ueber-der-smaragdgruenen-see-fanart-2.jpeg)
+![»Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/sanderson-weit-ueber-der-smaragdgruenen-see-fanart-2.jpeg)
 
 # Charaktere und Magiesystem
 Die Charaktere sind nicht so tiefgehend wie in anderen Sanderson-Büchern, was angesichts des Einzelbandes verständlich ist. Dennoch wachsen sie einem ans Herz, besonders Tress, die durch ihre Klugheit und ihren Einfallsreichtum beeindruckt. Ein weiteres Highlight der Geschichte ist die sprechende Ratte Huck, die Protagonistin Tress auf ihrer Reise begleitet und immer wieder für viele humorvolle Szenen sorgt. Ebenso erwähnenswert ist der Drache, der eine zentrale Rolle in einer der spannendsten Szenen des Buches spielt.
