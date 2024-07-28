@@ -17,18 +17,41 @@ repoUrl: https://github.com/markhorn-dev/astro-sphere
 coverImage: "/cover/sanderson-weit-ueber-der-smaragdgrünen-see.webp"
 ---
 
+import { BookDetails, CharacterHighlight, MagicSystem, InteractiveMap } from './components'
+
 # Einleitung
 Herzlich willkommen zu einer Liebeserklärung an ein besonderes Buch, das diesen Monat in unsere Buchhandlung kam: *Weit über der smaragdgrünen See*, das erste "Secret Project" Buch von Brandon Sanderson. Dieses Einzelwerk, obwohl es im Cosmere-Universum angesiedelt ist, kann eigenständig und unabhängig von den anderen Werken gelesen werden. Es ist humorvoll, herzerwärmend und gemütlich – also ganz anders als Sandersons bisherige Werke, die oft episch, tragisch und von einer gewissen Ernsthaftigkeit geprägt sind. Im Gegensatz dazu ist dieses Buch leichtfüßig, verspielt und witzig, ohne dabei auf die charakteristischen starken Figuren und komplexen Welten zu verzichten.
 
 # Inhalt
+<BookDetails 
+    title="Weit über der Smaragdgrünen See" 
+    author="Brandon Sanderson" 
+    coverImage="/cover/sanderson-weit-ueber-der-smaragdgrünen-see.webp" 
+/>
+
 Die Geschichte handelt von Tress, einem jungen Mädchen, das auf der winzigen Insel "Der Felsen" inmitten der smaragdgrünen See lebt. Diese unwirtliche Insel hat keine Vegetation und alle lebensnotwendigen Güter werden über Schiffe angeliefert. Niemand darf die Insel verlassen, außer den Kaufleuten und Adligen des herrschenden Herzogshauses. Tress ist eine einfache Reinigungskraft, glücklich in ihrer Rolle, und sammelt Tassen von Seeleuten aus aller Welt. Sie hat eine besondere Beziehung zu Charlie, dem Sohn des Herzogs, der leidenschaftlich gern Geschichten erzählt. Doch diese Verbindung ist dem Herzog ein Dorn im Auge, und so nimmt er seinen Sohn mit, um ihm eine Braut zu suchen.
 
-Als Charlie nicht zurückkehrt und Tress erfährt, dass er von einer Hexe in der Mitternachtsee gefangen gehalten wird, beschließt sie, ihn zu retten. Ihre Reise führt sie auf ein Piratenschiff, wo sie lernt, mit den magischen Sporen umzugehen, die die verschiedenen Meere von Lumar prägen. Diese Sporen haben besondere Eigenschaften und reagieren auf verschiedene Stoffe, was zu zahlreichen Abenteuern und Gefahren führt.
+<InteractiveMap />
+
+Als Charlie nicht zurückkehrt und Tress erfährt, dass er von einer Hexte in der Mitternachtsee gefangen gehalten wird, beschließt sie, ihn zu retten. Ihre Reise führt sie auf ein Piratenschiff, wo sie lernt, mit den magischen Sporen umzugehen, die die verschiedenen Meere von Lumar prägen. Diese Sporen haben besondere Eigenschaften und reagieren auf verschiedene Stoffe, was zu zahlreichen Abenteuern und Gefahren führt.
 
 # Charaktere und Magiesystem
-Die Charaktere sind nicht so tiefgehend wie in anderen Sanderson-Büchern, was angesichts des Einzelbandes verständlich ist. Dennoch wachsen sie einem ans Herz, besonders Tress, die durch ihre Klugheit und ihren Einfallsreichtum beeindruckt. Ein weiteres Highlight der Geschichte ist die sprechende Ratte Hack, die Protagonistin Tress auf ihrer Reise begleitet und immer wieder für viele humorvolle Szenen sorgt. Ebenso erwähnenswert ist der Drache, der eine zentrale Rolle in einer der spannendsten Szenen des Buches spielt.
+<CharacterHighlight 
+    name="Tress" 
+    description="Eine kluge und einfallsreiche junge Frau, die sich auf eine abenteuerliche Reise begibt, um ihren Freund zu retten." 
+/>
+<CharacterHighlight 
+    name="Hack" 
+    description="Eine sprechende Ratte, die Tress auf ihrer Reise begleitet und immer wieder für humorvolle Szenen sorgt." 
+/>
+<CharacterHighlight 
+    name="Charlie" 
+    description="Der Sohn des Herzogs, der von einer Hexe gefangen gehalten wird." 
+/>
 
-Das Magiesystem ist, wie bei Sanderson üblich, sehr einzigartig und durchdacht. Die Meere von Lumar bestehen aus Sporen, die bestimmte Eigenschaften haben und mit verschiedenen Stoffen interagieren. Dieses System erinnert an die physischen Experimente, die Sanderson gerne in seinen Welten einbaut, und zeigt einmal mehr seine Vorliebe für naturwissenschaftliche Konzepte.
+<MagicSystem 
+    description="Die Meere von Lumar bestehen aus Sporen, die bestimmte Eigenschaften haben und mit verschiedenen Stoffen interagieren. Dieses System erinnert an die physischen Experimente, die Sanderson gerne in seinen Welten einbaut." 
+/>
 
 ![Weit über der Smaragdgrünen See](/images/sanderson-weit-ueber-der-smaragdgruenen-see.jpeg)
 
