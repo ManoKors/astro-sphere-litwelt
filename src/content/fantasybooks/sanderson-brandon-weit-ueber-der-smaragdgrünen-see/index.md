@@ -1,6 +1,6 @@
 ---
 title: "Weit über der Smaragdgrünen See"
-summary: "Lorem ipsum dololoror sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum."
+summary: "Brandon Sandersons *Weit über der smaragdgrünen See* hat die Leser mit seiner einzigartigen Mischung aus märchenhaftem Charme, maritimem Abenteuer und verzweigten Verbindungen zur Kosmere in seinen Bann gezogen. Als erstes von Sandersons „Secret Projects“ bietet es sowohl einen frischen Erzählstil als auch eine willkommene Rückkehr in das geliebte Cosmere-Universum.
 date: "Mar 18 2022"
 series: "Secret Project #1"
 bookauthor: "Brandon Sanderson"
@@ -18,7 +18,7 @@ coverImage: "/cover/sanderson-weit-ueber-der-smaragdgrünen-see.webp"
 ---
 
 # Einleitung
-Herzlich willkommen zu einer Liebeserklärung an ein besonderes Buch, das diesen Monat in unsere Buchhandlung kam: *Weit über der smaragdgrünen See*, das erste "Secret Project" Buch von Brandon Sanderson. Dieses Einzelwerk, obwohl es im Cosmere-Universum angesiedelt ist, kann eigenständig und unabhängig von den anderen Werken gelesen werden. Es ist humorvoll, herzerwärmend und gemütlich – also ganz anders als Sandersons bisherige Werke, die oft episch, tragisch und von einer gewissen Ernsthaftigkeit geprägt sind. Im Gegensatz dazu ist dieses Buch leichtfüßig, verspielt und witzig, ohne dabei auf die charakteristischen starken Figuren und komplexen Welten zu verzichten.
+Herzlich willkommen zu einer Liebeserklärung an ein ganz besonderes Buch, das diesen Monat in meinen SUB kam: *Weit über der smaragdgrünen See*, das erste "Secret Project" Buch von Brandon Sanderson. Dieses Einzelwerk, obwohl es im Cosmere-Universum angesiedelt ist, kann eigenständig und unabhängig von den anderen Werken gelesen werden. Es ist humorvoll, herzerwärmend und gemütlich – also ganz anders als Sandersons bisherige Werke, die oft episch, tragisch und von einer gewissen Ernsthaftigkeit geprägt sind. Im Gegensatz dazu ist dieses Buch leichtfüßig, verspielt und witzig, ohne dabei auf die charakteristischen starken Figuren und komplexen Welten zu verzichten.
 
 # Inhalt
 Die Geschichte handelt von Tress, einem jungen Mädchen, das auf der winzigen Insel "Der Felsen" inmitten der smaragdgrünen See lebt. Diese unwirtliche Insel hat keine Vegetation und alle lebensnotwendigen Güter werden über Schiffe angeliefert. Niemand darf die Insel verlassen, außer den Kaufleuten und Adligen des herrschenden Herzogshauses. Tress ist eine einfache Reinigungskraft, glücklich in ihrer Rolle, und sammelt Tassen von Seeleuten aus aller Welt. Sie hat eine besondere Beziehung zu Charlie, dem Sohn des Herzogs, der leidenschaftlich gern Geschichten erzählt. Doch diese Verbindung ist dem Herzog ein Dorn im Auge, und so nimmt er seinen Sohn mit, um ihm eine Braut zu suchen.
