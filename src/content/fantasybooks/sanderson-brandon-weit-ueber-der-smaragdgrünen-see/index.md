@@ -25,14 +25,13 @@ Die Geschichte handelt von Tress, einem jungen Mädchen, das auf der winzigen In
 
 Als Charlie nicht zurückkehrt und Tress erfährt, dass er von einer Hexe in der Mitternachtsee gefangen gehalten wird, beschließt sie, ihn zu retten. Ihre Reise führt sie auf ein Piratenschiff, wo sie lernt, mit den magischen Sporen umzugehen, die die verschiedenen Meere von Lumar prägen. Diese Sporen haben besondere Eigenschaften und reagieren auf verschiedene Stoffe, was zu zahlreichen Abenteuern und Gefahren führt.
 
-![»Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/sanderson-weit-ueber-der-smaragdgruenen-see-fanart-2.jpeg)
+![Tress aus »Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/tress-weit-ueber-der-smaragdgruenen-see-fanart-2.jpeg)
+
 
 # Charaktere und Magiesystem
 Die Charaktere sind nicht so tiefgehend wie in anderen Sanderson-Büchern, was angesichts des Einzelbandes verständlich ist. Dennoch wachsen sie einem ans Herz, besonders Tress, die durch ihre Klugheit und ihren Einfallsreichtum beeindruckt. Ein weiteres Highlight der Geschichte ist die sprechende Ratte Huck, die Protagonistin Tress auf ihrer Reise begleitet und immer wieder für viele humorvolle Szenen sorgt. Ebenso erwähnenswert ist der Drache, der eine zentrale Rolle in einer der spannendsten Szenen des Buches spielt.
 
 Das Magiesystem ist, wie bei Sanderson üblich, sehr einzigartig und durchdacht. Die Meere von Lumar bestehen aus Sporen, die bestimmte Eigenschaften haben und mit verschiedenen Stoffen interagieren. Dieses System erinnert an die physischen Experimente, die Sanderson gerne in seinen Welten einbaut, und zeigt einmal mehr seine Vorliebe für naturwissenschaftliche Konzepte.
-
-![Tress aus »Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/tress-weit-ueber-der-smaragdgruenen-see-fanart.jpeg)
 
 # Erzählstil und Ton
 Der Erzählton ist leichtfüßig und gelöst, was das Lesen zu einem Vergnügen macht. Sanderson scheint sichtlich Spaß gehabt zu haben, dieses Buch zu schreiben. Der Ich-Erzähler Hoid, ein bekannter Charakter aus dem Cosmere, bringt seine eigene Geschichte und Erfahrungen ein, was der Erzählung zusätzliche Tiefe verleiht. Seine humorvollen und nachdenklichen Kommentare machen das Buch dabei noch unterhaltsamer. Diese Erzählweise erinnert an Werke wie *Der Name des Windes* von Patrick Rothfuss und die Eragon-Reihe von Christopher Paolini, wo der Erzähler ebenfalls eine zentrale Rolle spielt und die Geschichte auf eine ganz bestimmte Art und Weise präsentiert. 
@@ -41,6 +40,8 @@ Der Erzählton ist leichtfüßig und gelöst, was das Lesen zu einem Vergnügen 
 In einer Autorennotiz erwähnt Sanderson, dass die Inspiration für *Weit über der smaragdgrünen See* von der Diskussion mit seiner Frau über die Verfilmung von William Goldmans Fantasyklassiker *Die Brautprinzessin* stammt: Während eines Filmabends bemerkte seine Frau, dass die Figur Buttercup im Film mehr Eigenständigkeit hätte haben können. Diese Anmerkung führte dazu, dass Sanderson eine Geschichte schuf, in der die weibliche Hauptfigur, Tress, eine weitaus aktivere Rolle übernimmt, um ihren Geliebten zu retten, anstatt einfach nur eine passive Figur zu sein, die auf Rettung wartet.
 
 Der Roman unterscheidet sich stark von Sandersons epischen Reihen wie Die Sturmlicht-Chroniken oder Mistborn, bietet jedoch eine erfrischende Abwechslung durch seinen leichten Ton und die kürzere Form. Leser, die Freude an intelligent konzipierten Welten und magischen Systemen haben, werden hier voll auf ihre Kosten kommen.
+
+![Tress aus »Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/tress-weit-ueber-der-smaragdgruenen-see-fanart.jpeg)
 
 # Mein Fazit
 *Weit über der smaragdgrünen See* ist ein charmantes und fantasievolles Buch, das trotz seines leichten Tons klug und clever bleibt. Sanderson gelingt es, eine faszinierende Welt zu erschaffen und mit einem einzigartigen Magiesystem zu überraschen. Die Geschichte von Tress ist herzerwärmend und unterhaltsam, und die positiven Vibes des Buches machen es zu einem echten Lesevergnügen. Für Fans von Sanderson und Neueinsteiger gleichermaßen ist dieses Buch ein absolutes Highlight.
