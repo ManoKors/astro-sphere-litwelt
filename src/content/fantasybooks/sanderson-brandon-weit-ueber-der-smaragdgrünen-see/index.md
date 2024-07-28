@@ -1,7 +1,7 @@
 ---
 title: "Weit über der smaragdgrünen See"
 summary: "Brandon Sandersons »Weit über der smaragdgrünen See« hat die Leser mit seiner einzigartigen Mischung aus märchenhaftem Charme, maritimem Abenteuer und verzweigten Verbindungen in seinen Bann gezogen. Als erstes von Sandersons „Secret Projects“ bietet es sowohl einen frischen Erzählstil als auch eine willkommene Rückkehr in das geliebte Cosmere-Universum."
-date: "Mar 18 2022"
+date: "Aug 30 2024"
 series: "Secret Project #1"
 bookauthor: "Brandon Sanderson"
 draft: false
