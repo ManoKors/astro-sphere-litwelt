@@ -1,0 +1,4 @@
+
+Ein Link wird einfach so platziert und kann zwischen den einzelnen Dokumenten bzw .md files verlinken.
+
+[The Princess Bride](/fantasybooks/fantasybook-2)
