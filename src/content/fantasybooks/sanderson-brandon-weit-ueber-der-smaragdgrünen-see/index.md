@@ -1,6 +1,6 @@
 ---
 title: "Weit über der Smaragdgrünen See"
-summary: "Brandon Sandersons Weit über der smaragdgrünen See hat die Leser mit seiner einzigartigen Mischung aus märchenhaftem Charme, maritimem Abenteuer und verzweigten Verbindungen zur Kosmere in seinen Bann gezogen. Als erstes von Sandersons „Secret Projects“ bietet es sowohl einen frischen Erzählstil als auch eine willkommene Rückkehr in das geliebte Cosmere-Universum."
+summary: "Brandon Sandersons »Weit über der smaragdgrünen See« hat die Leser mit seiner einzigartigen Mischung aus märchenhaftem Charme, maritimem Abenteuer und verzweigten Verbindungen in seinen Bann gezogen. Als erstes von Sandersons „Secret Projects“ bietet es sowohl einen frischen Erzählstil als auch eine willkommene Rückkehr in das geliebte Cosmere-Universum."
 date: "Mar 18 2022"
 series: "Secret Project #1"
 bookauthor: "Brandon Sanderson"
@@ -30,7 +30,7 @@ Die Charaktere sind nicht so tiefgehend wie in anderen Sanderson-Büchern, was a
 
 Das Magiesystem ist, wie bei Sanderson üblich, sehr einzigartig und durchdacht. Die Meere von Lumar bestehen aus Sporen, die bestimmte Eigenschaften haben und mit verschiedenen Stoffen interagieren. Dieses System erinnert an die physischen Experimente, die Sanderson gerne in seinen Welten einbaut, und zeigt einmal mehr seine Vorliebe für naturwissenschaftliche Konzepte.
 
-![Weit über der Smaragdgrünen See](/images/sanderson-weit-ueber-der-smaragdgruenen-see.jpeg)
+![Weit über der Smaragdgrünen See](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/tress-weit-ueber-der-smaragdgruenen-see-fanart.jpeg)
 
 # Erzählstil und Ton
 Der Erzählton ist leichtfüßig und gelöst, was das Lesen zu einem Vergnügen macht. Sanderson scheint sichtlich Spaß gehabt zu haben, dieses Buch zu schreiben. Der Ich-Erzähler Hoid, ein bekannter Charakter aus dem Cosmere, bringt seine eigene Geschichte und Erfahrungen ein, was der Erzählung zusätzliche Tiefe verleiht. Seine humorvollen und nachdenklichen Kommentare machen das Buch dabei noch unterhaltsamer.
