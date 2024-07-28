@@ -25,7 +25,7 @@ Die Geschichte handelt von Tress, einem jungen Mädchen, das auf der winzigen In
 
 Als Charlie nicht zurückkehrt und Tress erfährt, dass er von einer Hexe in der Mitternachtsee gefangen gehalten wird, beschließt sie, ihn zu retten. Ihre Reise führt sie auf ein Piratenschiff, wo sie lernt, mit den magischen Sporen umzugehen, die die verschiedenen Meere von Lumar prägen. Diese Sporen haben besondere Eigenschaften und reagieren auf verschiedene Stoffe, was zu zahlreichen Abenteuern und Gefahren führt.
 
-![Tress aus »Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/tress-weit-ueber-der-smaragdgruenen-see-fanart.jpeg)
+![»Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/tress-weit-ueber-der-smaragdgruenen-see-fanart-2.jpeg)
 
 
 # Charaktere und Magiesystem
