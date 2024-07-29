@@ -26,6 +26,8 @@ Die Geschichte dreht sich um Locke Lamora, einen Meisterdieb in der Stadt Camorr
 
 Das Buch wechselt ständig zwischen Lockes Kindheit und seiner Gegenwart als Anführer der Bande. Wir erleben, wie er von einem Straßenjungen zu einem genialen Betrüger wird. Alles läuft soweit ganz gut, bis ein gefährlicher Fremder in die Stadt kommt und das Machtgefüge der Unterwelt komplett auf den Kopf stellt. Locke muss sich gegen diesen neuen Feind behaupten und dabei sein bisher größtes und riskantestes Spiel spielen.
 
+![»Die Lügen des Locke Lamora«](/images/fantasy/scott/scott-die-luegen-des-locke-lamora.jpeg)
+
 # Stil und Erzählweise
 Lynch erzählt die Geschichte auf zwei Zeitebenen: In der einen verfolgen wir Lockes Jugendjahre, in der anderen seine aktuellen Abenteuer als erwachsener Meisterdieb. Diese Wechsel sind super gemacht und geben uns nicht nur Spannung, sondern auch tiefere Einblicke in Lockes Charakter und die Dynamik seiner Bande.
 
