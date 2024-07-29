@@ -6,7 +6,7 @@ const Spoiler = ({ children }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisibility = () => {
-    setIsVisible(!isVisible);
+    setIsVisible(prev => !prev);
   };
 
   return (
