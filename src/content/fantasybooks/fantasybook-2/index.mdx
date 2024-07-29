@@ -24,8 +24,10 @@ import Spoiler from './Spoiler';
 
 As the plot thickens, our heroes discover something unbelievable.
 
-<Spoiler>
+// Imported from components directory (src/components)
+import Spoiler from "@components/Spoiler"
+
+// Don't forget the astro client:load directive
+<Spoiler client:load>
   In a shocking twist, it is revealed that the protagonist has been a dragon in disguise all along, living among humans to understand them better and avert a future catastrophe.
 </Spoiler>
-
-The adventure continues as they grapple with this revelation and its implications.
