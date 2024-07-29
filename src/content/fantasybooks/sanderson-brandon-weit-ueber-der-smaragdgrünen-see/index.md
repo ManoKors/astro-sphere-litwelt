@@ -4,14 +4,12 @@ summary: "Brandon Sandersons »Weit über der smaragdgrünen See« hat die Leser
 date: "Aug 30 2024"
 series: "Secret Project #1"
 bookauthor: "Brandon Sanderson"
+releaseyear: 2023
 draft: false
 tags:
 - High Fantasy
 - Märchen
-- Javascript
-- Typescript
-- Tailwind
-- SolidJs
+- Piraten
 demoUrl: https://astro-sphere-demo.vercel.app
 repoUrl: https://github.com/markhorn-dev/astro-sphere
 coverImage: "/cover/sanderson-weit-ueber-der-smaragdgrünen-see.webp"
@@ -47,5 +45,5 @@ Der Roman unterscheidet sich stark von Sandersons epischen Reihen wie Die Sturml
 *Weit über der smaragdgrünen See* ist ein charmantes und fantasievolles Buch, das trotz seines leichten Tons klug und clever bleibt. Sanderson gelingt es, eine faszinierende Welt zu erschaffen und mit einem einzigartigen Magiesystem zu überraschen. Die Geschichte von Tress ist herzerwärmend und unterhaltsam, und die positiven Vibes des Buches machen es zu einem echten Lesevergnügen. Für Fans von Sanderson und Neueinsteiger gleichermaßen ist dieses Buch ein absolutes Highlight.
 
 # Erwähnte Werke
-Die Braut des Prinzen 1987 (Regie: Rob Reiner) https://amzn.to/4cXW8IZ
+*Die Braut des Prinzen* 1987 (Regie: Rob Reiner) https://amzn.to/4cXW8IZ
 
