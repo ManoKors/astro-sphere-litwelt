@@ -53,6 +53,7 @@ const fantasybooks = defineCollection({
     summary: z.string(),
     date: z.coerce.date(),
     bookauthor: z.string().optional(), // Added bookauthor property
+    reviewer: z.string().optional(), // Added reviewer property
     tags: z.array(z.string()),
     draft: z.boolean().optional(),
     demoUrl: z.string().optional(),

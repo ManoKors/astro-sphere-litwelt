@@ -5,6 +5,7 @@ date: "Aug 30 2024"
 series: "Secret Project #1"
 bookauthor: "Brandon Sanderson"
 releaseyear: "2023"
+reviewer: "Susan Vega"
 draft: false
 tags:
 - High Fantasy
