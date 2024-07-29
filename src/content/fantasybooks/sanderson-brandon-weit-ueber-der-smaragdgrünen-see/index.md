@@ -4,7 +4,7 @@ summary: "Brandon Sandersons »Weit über der smaragdgrünen See« hat die Leser
 date: "Aug 30 2024"
 series: "Secret Project #1"
 bookauthor: "Brandon Sanderson"
-releaseyear: 2023
+releaseyear: "2023"
 draft: false
 tags:
 - High Fantasy
