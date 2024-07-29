@@ -1,8 +1,12 @@
 // Spoiler.tsx
 
-import { createSignal } from "solid-js";
+import { createSignal, JSX } from "solid-js";
 
-function Spoiler({ children }) {
+interface SpoilerProps {
+  children: JSX.Element | JSX.Element[];
+}
+
+function Spoiler({ children }: SpoilerProps) {
   const [revealed, setRevealed] = createSignal(false);
 
   const toggleReveal = () => setRevealed(!revealed());
