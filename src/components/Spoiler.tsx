@@ -1,6 +1,7 @@
 // Spoiler.tsx
 
-import { createSignal, JSX } from "solid-js";
+import { createSignal } from "solid-js";
+import type { JSX } from "solid-js";
 
 interface SpoilerProps {
   children: JSX.Element | JSX.Element[];
