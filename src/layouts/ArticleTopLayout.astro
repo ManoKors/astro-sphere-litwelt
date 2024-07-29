@@ -8,7 +8,7 @@ type Props = {
 
 const { entry } = Astro.props
 const { collection, data, body } = entry
-const { title, summary, date, coverImage, reviewer } = data
+const { title, summary, date, coverImage } = data
 
 // Accessing properties conditionally based on the collection type
 const series = collection === "fantasybooks" ? data.series : null
@@ -45,14 +45,6 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
           </svg>
           {readingTime(body)}
         </div>
-        {reviewer &&
-          <div class="flex items-center gap-2">
-            <svg class="size-5 stroke-current">
-              <use href="/ui.svg#user"/>
-            </svg>
-            {reviewer}
-          </div>
-        }
       </div>
       
       <h1 class="text-3xl font-semibold text-black dark:text-white mt-2">
