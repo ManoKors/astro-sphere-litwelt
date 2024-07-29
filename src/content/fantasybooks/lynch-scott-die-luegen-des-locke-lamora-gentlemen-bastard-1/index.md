@@ -1,6 +1,6 @@
 ---
 title: "Die Lügen des Locke Lamora"
-summary: "Lorem ipsum dololoror sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum."
+summary: "»Die Lügen des Locke Lamora« von Scott Lynch ist ein fesselnder Fantasy-Roman über den Meisterdieb Locke Lamora und seine Bande, die in der Stadt Camorr die Reichen ausnehmen. Die Geschichte beeindruckt mit cleveren Charakteren, komplexen Intrigen und einer düsteren, von Venedig inspirierten Welt."
 date: "Aug 31 2024"
 series: "Gentleman Bastard #1"
 bookauthor: "Scott Lynch"
