@@ -11,12 +11,8 @@
             "id": "30573856a0143ba1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fantasybooks/the-will-of-the-many/index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fantasybooks/the-will-of-the-many/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fantasybooks/the-will-of-the-many/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "fantasybooks/the-will-of-the-many/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +139,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6f6dde6df0d04764",
+  "active": "30573856a0143ba1",
   "lastOpenFiles": [
     "fantasybooks/template/index.md",
     "fantasybooks/the-will-of-the-many/index.md",
+    "fantasybooks/sanderson-brandon-weit-ueber-der-smaragdgrünen-see/sanderson-weit-ueber-der-smaragdgruenen-see-fanart.jpeg",
+    "fantasybooks/sanderson-brandon-weit-ueber-der-smaragdgrünen-see/sanderson-weit-ueber-der-smaragdgruenen-see-fanart-2.jpeg",
+    "fantasybooks/fantasybook-2",
     "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
     "fantasybooks/fantasybook-2/templateBook.mdx",
     "fantasybooks/index.md",
