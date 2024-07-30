@@ -28,12 +28,11 @@ const tags = Array.from(new Set([
 
 ---
 <PageLayout title="Author Profile" description="Overview of the author's works and related tags">
-
   <!-- Author Image and Biography -->
-  <section class="relative w-full p-5 flex flex-col items-center">
-    <img src="/path/to/author-image.jpg" alt="Author" class="rounded-full w-32 h-32 mb-4" />
+  <section class="relative w-full p-5 flex flex-col items-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white rounded-lg shadow-lg">
+    <img src="/path/to/author-image.jpg" alt="Author" class="rounded-full w-32 h-32 mb-4 border-4 border-white shadow-md" />
     <div class="text-center">
-      <h1 class="text-2xl font-bold">Astro Sphere</h1>
+      <h1 class="text-3xl font-bold">Astro Sphere</h1>
       <p class="text-lg mt-2">
         I am a <b><i>software engineer</i></b>, <b><i>ui/ux designer</i></b>, 
         <b><i>product planner</i></b>, <b><i>mentor</i></b>, 
@@ -41,7 +40,7 @@ const tags = Array.from(new Set([
         <b><i>eternal optimist</i></b>, <b><i>crypto enthusiast</i></b>, 
         and <b><i>sarcasm connoisseur</i></b>.
       </p>
-      <p class="mt-2">
+      <p class="mt-2 max-w-2xl mx-auto">
         I enjoy building and breaking things, tackling challenging projects, 
         and crafting creative front-end designs with unique takes on color, 
         typography, and motion.
@@ -50,54 +49,53 @@ const tags = Array.from(new Set([
   </section>
 
   <!-- Works Overview -->
-  <section class="p-5 space-y-12">
-    <div class="space-y-4">
-      <h2 class="text-xl font-semibold text-center">Works</h2>
+  <section class="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Blog Posts -->
+    <div class="col-span-1 flex flex-col space-y-4 bg-white p-4 rounded-lg shadow-md">
+      <h2 class="text-xl font-semibold text-center mb-2">Recent Blog Posts</h2>
+      <ul class="space-y-4">
+        {posts.map((post) => (
+          <li>
+            <ArrowCard entry={post} />
+          </li>
+        ))}
+      </ul>
+      <a href="/blog" class="mt-4 text-blue-500 hover:text-blue-700 text-center block">View All Blog Posts</a>
+    </div>
 
-      <!-- Blog Posts -->
-      <div>
-        <h3 class="text-lg font-semibold">Recent Blog Posts</h3>
-        <ul class="space-y-4">
-          {posts.map((post) => (
-            <li>
-              <ArrowCard entry={post} />
-            </li>
-          ))}
-        </ul>
-      </div>
+    <!-- Projects -->
+    <div class="col-span-1 flex flex-col space-y-4 bg-white p-4 rounded-lg shadow-md">
+      <h2 class="text-xl font-semibold text-center mb-2">Recent Projects</h2>
+      <ul class="space-y-4">
+        {projects.map((project) => (
+          <li>
+            <ArrowCard entry={project} />
+          </li>
+        ))}
+      </ul>
+      <a href="/projects" class="mt-4 text-blue-500 hover:text-blue-700 text-center block">View All Projects</a>
+    </div>
 
-      <!-- Projects -->
-      <div>
-        <h3 class="text-lg font-semibold">Recent Projects</h3>
-        <ul class="space-y-4">
-          {projects.map((project) => (
-            <li>
-              <ArrowCard entry={project} />
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <!-- Fantasy Books -->
-      <div>
-        <h3 class="text-lg font-semibold">Recent Fantasy Books</h3>
-        <ul class="space-y-4">
-          {fantasybooks.map((fantasybook) => (
-            <li>
-              <ArrowCard entry={fantasybook} />
-            </li>
-          ))}
-        </ul>
-      </div>
+    <!-- Fantasy Books -->
+    <div class="col-span-1 flex flex-col space-y-4 bg-white p-4 rounded-lg shadow-md">
+      <h2 class="text-xl font-semibold text-center mb-2">Recent Fantasy Books</h2>
+      <ul class="space-y-4">
+        {fantasybooks.map((fantasybook) => (
+          <li>
+            <ArrowCard entry={fantasybook} />
+          </li>
+        ))}
+      </ul>
+      <a href="/fantasybooks" class="mt-4 text-blue-500 hover:text-blue-700 text-center block">View All Fantasy Books</a>
     </div>
   </section>
 
   <!-- Tags Overview -->
   <section class="p-5">
-    <h2 class="text-xl font-semibold text-center">Related Tags</h2>
-    <div class="flex flex-wrap justify-center gap-2 mt-4">
+    <h2 class="text-xl font-semibold text-center mb-4">Related Tags</h2>
+    <div class="flex flex-wrap justify-center gap-2">
       {tags.map(tag => (
-        <span class="px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300">
+        <span class="px-3 py-1 rounded-full bg-gray-200 text-gray-700">
           {tag}
         </span>
       ))}
@@ -106,14 +104,13 @@ const tags = Array.from(new Set([
 
   <!-- Social Media Links -->
   <section class="p-5">
-    <h2 class="text-xl font-semibold text-center">Let's Connect</h2>
-    <div class="flex justify-center gap-4 mt-4">
+    <h2 class="text-xl font-semibold text-center mb-4">Let's Connect</h2>
+    <div class="flex justify-center gap-4">
       {SOCIALS.map(social => (
-        <a href={social.HREF} target="_blank" class="underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+        <a href={social.HREF} target="_blank" class="text-blue-500 hover:text-blue-700">
           {social.NAME}
         </a>
       ))}
     </div>
   </section>
-
 </PageLayout>
