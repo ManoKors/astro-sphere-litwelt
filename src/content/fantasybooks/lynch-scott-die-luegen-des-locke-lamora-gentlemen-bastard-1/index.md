@@ -25,7 +25,7 @@ Die Geschichte dreht sich um Locke Lamora, einen Meisterdieb in der Stadt Camorr
 
 Das Buch wechselt ständig zwischen Lockes Kindheit und seiner Gegenwart als Anführer der Bande. Wir erleben, wie er von einem Straßenjungen zu einem genialen Betrüger wird. Alles läuft soweit ganz gut, bis ein gefährlicher Fremder in die Stadt kommt und das Machtgefüge der Unterwelt komplett auf den Kopf stellt. Locke muss sich gegen diesen neuen Feind behaupten und dabei sein bisher größtes und riskantestes Spiel spielen.
 
-![»Die Lügen des Locke Lamora«](/images/fantasy/scott/scott-die-luegen-des-locke-lamora.jpeg)
+![»Die Lügen des Locke Lamora«](scott-die-luegen-des-locke-lamora.jpeg)
 
 # Stil und Erzählweise
 Lynch erzählt die Geschichte auf zwei Zeitebenen: In der einen verfolgen wir Lockes Jugendjahre, in der anderen seine aktuellen Abenteuer als erwachsener Meisterdieb. Diese Wechsel sind super gemacht und geben uns nicht nur Spannung, sondern auch tiefere Einblicke in Lockes Charakter und die Dynamik seiner Bande.
@@ -42,7 +42,7 @@ Was die Charaktere so liebenswert macht, ist ihre Vielschichtigkeit. Sie sind ni
 
 Ein besonderes Highlight ist die Welt, die Scott Lynch geschaffen hat. Camorr erinnert stark an eine italienische Stadt wie Venedig, mit all ihren Kanälen und historischen Gebäuden, aber auch einem Schuss Magie und Alchemie. Es gibt keine allmächtigen Magier in der Hauptgruppe, was erfrischend ist. Stattdessen sind die Gentlemen Bastards auf ihre Cleverness und ihre Diebeskünste angewiesen.
 
-![»Die Lügen des Locke Lamora«](/images/fantasy/scott/scott-die-luegen-des-locke-lamora-2.jpeg)
+![»Die Lügen des Locke Lamora«](scott-die-luegen-des-locke-lamora-2.jpeg)
 
 # Mein Fazit
 *Die Lügen des Locke Lamora* ist ein fantastisches Buch, das durch seine spannende Story, die coolen Charaktere und die wirklich tolle Atmosphäre überzeugt. Wenn ihr auf clevere Diebe, moralische Grauzonen gepaart mit ein bisschen Magie steht, dann ist dieses Buch genau das Richtige für euch.
