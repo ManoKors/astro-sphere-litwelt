@@ -15,6 +15,7 @@ const series = collection === "fantasybooks" ? data.series : null
 const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
 const demoUrl = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
 const repoUrl = collection === "projects" || collection === "fantasybooks" ? data.repoUrl : null
+
 const amazon = collection === "projects" || collection === "fantasybooks" ? data.amazon : null
 
 const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLowerCase()}` : null
@@ -74,13 +75,13 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
 
   {(demoUrl || repoUrl || amazon) && 
   <div class="mt-4 flex flex-wrap gap-2">
-    {demoUrl && 
+    {amazon && 
       <a href={amazon} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15">
         <svg class="size-4">
           <use href="/ui.svg#globe" class="fill-current group-hover:fill-black group-hover:dark:fill-white"/>
         </svg>
         <span class="text-current group-hover:text-black group-hover:dark:text-white">
-          Thalia
+          Amazon
         </span>
       </a>
     }
@@ -90,7 +91,7 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
           <use href="/ui.svg#link" class="fill-current group-hover:fill-black group-hover:dark:fill-white"/>
         </svg>
         <span class="text-current group-hover:text-black group-hover:dark:text-white">
-          Amazon
+          Thalia
         </span>
       </a>
     }
