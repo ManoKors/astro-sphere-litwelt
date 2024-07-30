@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "13c3083c5eb6c581",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7c12ba7a19c7bfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30573856a0143ba1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64e8d0fbc65f3564",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b9b55fb8ed0720",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f6dde6df0d04764",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a39c85dbf740d83e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c104dc7945aaf91a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e36cda90235c22f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc7764aba2cd5bb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3789b5214c469816",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0a43e19d88929290",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f84ea88ddcd9d5ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "05d7267bbd1de80e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false
+    }
+  },
+  "active": "30573856a0143ba1",
+  "lastOpenFiles": [
+    "fantasybooks/sanderson-brandon-weit-ueber-der-smaragdgrünen-see/sanderson-weit-ueber-der-smaragdgruenen-see-fanart.webp",
+    "fantasybooks/sanderson-brandon-weit-ueber-der-smaragdgrünen-see/sanderson-weit-ueber-der-smaragdgruenen-see-fanart-2.webp",
+    "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/scott-die-luegen-des-locke-lamora.jpeg",
+    "fantasybooks/fantasybook-2/index.mdx",
+    "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md"
+  ]
+}

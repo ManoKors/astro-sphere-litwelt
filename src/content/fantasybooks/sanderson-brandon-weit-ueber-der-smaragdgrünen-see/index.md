@@ -25,7 +25,7 @@ Die Geschichte handelt von Tress, einem jungen Mädchen, das auf der winzigen In
 
 Als Charlie nicht zurückkehrt und Tress erfährt, dass er von einer Hexe in der Mitternachtsee gefangen gehalten wird, beschließt sie, ihn zu retten. Ihre Reise führt sie auf ein Piratenschiff, wo sie lernt, mit den magischen Sporen umzugehen, die die verschiedenen Meere von Lumar prägen. Diese Sporen haben besondere Eigenschaften und reagieren auf verschiedene Stoffe, was zu zahlreichen Abenteuern und Gefahren führt.
 
-![»Weit über der Smaragdgrünen See«](sanderson-weit-ueber-der-smaragdgruenen-see-fanart-2.jpeg)
+![»Weit über der Smaragdgrünen See«](sanderson-weit-ueber-der-smaragdgruenen-see-fanart-2.webp)
 
 
 # Charaktere und Magiesystem
@@ -41,7 +41,7 @@ In einer Autorennotiz erwähnt Sanderson, dass die Inspiration für *Weit über 
 
 Der Roman unterscheidet sich stark von Sandersons epischen Reihen wie Die Sturmlicht-Chroniken oder Mistborn, bietet jedoch eine erfrischende Abwechslung durch seinen leichten Ton und die kürzere Form. Leser, die Freude an intelligent konzipierten Welten und magischen Systemen haben, werden hier voll auf ihre Kosten kommen.
 
-![Tress aus »Weit über der Smaragdgrünen See«](sanderson-weit-ueber-der-smaragdgruenen-see-fanart.jpeg)
+![Tress aus »Weit über der Smaragdgrünen See«](sanderson-weit-ueber-der-smaragdgruenen-see-fanart.webp)
 
 # Mein Fazit
 *Weit über der smaragdgrünen See* ist ein charmantes und fantasievolles Buch, das trotz seines leichten Tons klug und clever bleibt. Sanderson gelingt es, eine faszinierende Welt zu erschaffen und mit einem einzigartigen Magiesystem zu überraschen. Die Geschichte von Tress ist herzerwärmend und unterhaltsam, und die positiven Vibes des Buches machen es zu einem echten Lesevergnügen. Für Fans von Sanderson und Neueinsteiger gleichermaßen ist dieses Buch ein absolutes Highlight.
