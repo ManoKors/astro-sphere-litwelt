@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fantasybooks/the-will-of-the-many/The will of the many.md",
+                "file": "fantasybooks/the-will-of-the-many/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fantasybooks/the-will-of-the-many/The will of the many.md",
+                "file": "fantasybooks/the-will-of-the-many/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fantasybooks/the-will-of-the-many/The will of the many.md",
+                "file": "fantasybooks/the-will-of-the-many/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fantasybooks/the-will-of-the-many/The will of the many.md"
+                "file": "fantasybooks/the-will-of-the-many/index.md"
               }
             }
           }
@@ -150,7 +150,7 @@
   "active": "6f6dde6df0d04764",
   "lastOpenFiles": [
     "fantasybooks/template/index.md",
-    "fantasybooks/the-will-of-the-many/The will of the many.md",
+    "fantasybooks/the-will-of-the-many/index.md",
     "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
     "fantasybooks/fantasybook-2/templateBook.mdx",
     "fantasybooks/index.md",
