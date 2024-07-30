@@ -2,48 +2,35 @@
 import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
-import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 
+// Fetch author's data
+const author = (await getCollection("bookauthor")).find(author => author.data.name === "Brandon Sanderson")
+
+// Fetch works data
 const posts = (await getCollection("blog"))
   .filter(post => !post.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,3)
+  .slice(0, 3)
 
 const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,3)
-
-const fantasybooks = (await getCollection("fantasybooks"))
-  .filter(fantasybook => !fantasybook.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,3)
+  .slice(0, 3)
 
 const tags = Array.from(new Set([
   ...posts.flatMap(post => post.data.tags || []),
-  ...projects.flatMap(project => project.data.tags || []),
-  ...fantasybooks.flatMap(fantasybook => fantasybook.data.tags || [])
+  ...projects.flatMap(project => project.data.tags || [])
 ]));
-
 ---
-<PageLayout title="Author Profile" description="Overview of the author's works and related tags">
+<PageLayout title={`Author Profile: ${author.data.name}`} description={`Overview of ${author.data.name}'s works and related tags`}>
   <!-- Author Image and Biography -->
-  <section class="relative w-full p-5 flex flex-col items-center bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white rounded-lg shadow-lg">
-    <img src="/path/to/author-image.jpg" alt="Author" class="rounded-full w-32 h-32 mb-4 border-4 border-white shadow-md" />
+  <section class="relative w-full p-5 flex flex-col items-center bg-gradient-to-r from-blue-500 via-green-500 to-yellow-500 text-white rounded-lg shadow-lg mb-16">
+    <img src={author.data.imageUrl} alt="Author" class="rounded-full w-32 h-32 mb-4 border-4 border-white shadow-md" />
     <div class="text-center">
-      <h1 class="text-3xl font-bold">Astro Sphere</h1>
+      <h1 class="text-3xl font-bold">{author.data.name}</h1>
       <p class="text-lg mt-2">
-        I am a <b><i>software engineer</i></b>, <b><i>ui/ux designer</i></b>, 
-        <b><i>product planner</i></b>, <b><i>mentor</i></b>, 
-        <b><i>student</i></b>, <b><i>minimalist</i></b>, 
-        <b><i>eternal optimist</i></b>, <b><i>crypto enthusiast</i></b>, 
-        and <b><i>sarcasm connoisseur</i></b>.
-      </p>
-      <p class="mt-2 max-w-2xl mx-auto">
-        I enjoy building and breaking things, tackling challenging projects, 
-        and crafting creative front-end designs with unique takes on color, 
-        typography, and motion.
+        {author.data.biography}
       </p>
     </div>
   </section>
@@ -74,19 +61,6 @@ const tags = Array.from(new Set([
         ))}
       </ul>
       <a href="/projects" class="mt-4 text-blue-500 hover:text-blue-700 text-center block">View All Projects</a>
-    </div>
-
-    <!-- Fantasy Books -->
-    <div class="col-span-1 flex flex-col space-y-4 bg-white p-4 rounded-lg shadow-md">
-      <h2 class="text-xl font-semibold text-center mb-2">Recent Fantasy Books</h2>
-      <ul class="space-y-4">
-        {fantasybooks.map((fantasybook) => (
-          <li>
-            <ArrowCard entry={fantasybook} />
-          </li>
-        ))}
-      </ul>
-      <a href="/fantasybooks" class="mt-4 text-blue-500 hover:text-blue-700 text-center block">View All Fantasy Books</a>
     </div>
   </section>
 
