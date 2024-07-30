@@ -15,7 +15,7 @@ const series = collection === "fantasybooks" ? data.series : null
 const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
 const demoUrl = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
 const repoUrl = collection === "projects" || collection === "fantasybooks" ? data.repoUrl : null
-const amazon = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
+const amazon = collection === "projects" || collection === "fantasybooks" ? data.amazon : null
 
 const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLowerCase()}` : null
 ---
