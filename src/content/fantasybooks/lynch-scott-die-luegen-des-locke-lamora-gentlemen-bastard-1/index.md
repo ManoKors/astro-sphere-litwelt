@@ -11,8 +11,7 @@ tags:
 - Abenteuer
 - Mystery
 - Crime
-demoUrl: https://astro-sphere-demo.vercel.app
-repoUrl: https://github.com/markhorn-dev/astro-sphere
+amazon: https://amzn.to/3LNyNhe
 coverImage: "/cover/lynch-die-luegen-des-locke-lamora.webp"
 ---
 
