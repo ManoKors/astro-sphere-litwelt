@@ -18,7 +18,7 @@ repoUrl: https://github.com/markhorn-dev/astro-sphere
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
-import BookCard from "./MyCoolComponent.astro"
+import BookCard from "./MyCoolComponent.astro" 
 
 # My Favorite Books
 
@@ -26,22 +26,26 @@ In this section, I will discuss some of my favorite books along with information
 
 ## The Great Gatsby
 
-<BookCard
-  title="The Great Gatsby"
-  author="F. Scott Fitzgerald"
-  publicationDate="1925"
-  description="A novel about the American dream and the roaring twenties. It tells the story of Jay Gatsby's unrequited love for Daisy Buchanan and the complexities of life in the 1920s."
-  image="https://example.com/great-gatsby.jpg"
-  link="https://en.wikipedia.org/wiki/The_Great_Gatsby"
+# Featured Books
+
+Take a look at these stunning books and learn more about the authors behind them.
+
+<BookHighlight
+  title="The Night Circus"
+  author="Erin Morgenstern"
+  publicationDate="2011"
+  description="A magical realism novel about a mysterious circus that is only open at night."
+  coverImage="https://example.com/night-circus.jpg"
+  authorImage="https://example.com/erin-morgenstern.jpg"
+  link="https://en.wikipedia.org/wiki/The_Night_Circus"
 />
 
-## To Kill a Mockingbird
-
-<BookCard
-  title="To Kill a Mockingbird"
-  author="Harper Lee"
-  publicationDate="1960"
-  description="A novel that explores the serious issues of racial injustice and moral growth in the Deep South through the eyes of young Scout Finch."
-  image="https://example.com/to-kill-a-mockingbird.jpg"
-  link="https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird"
+<BookHighlight
+  title="Dune"
+  author="Frank Herbert"
+  publicationDate="1965"
+  description="A science fiction novel set in a distant future amidst a huge interstellar empire."
+  coverImage="https://example.com/dune.jpg"
+  authorImage="https://example.com/frank-herbert.jpg"
+  link="https://en.wikipedia.org/wiki/Dune_(novel)"
 />
