@@ -43,6 +43,8 @@ Was die Charaktere so liebenswert macht, ist ihre Vielschichtigkeit. Sie sind ni
 
 Ein besonderes Highlight ist die Welt, die Scott Lynch geschaffen hat. Camorr erinnert stark an eine italienische Stadt wie Venedig, mit all ihren Kanälen und historischen Gebäuden, aber auch einem Schuss Magie und Alchemie. Es gibt keine allmächtigen Magier in der Hauptgruppe, was erfrischend ist. Stattdessen sind die Gentlemen Bastards auf ihre Cleverness und ihre Diebeskünste angewiesen.
 
+![»Die Lügen des Locke Lamora«](/images/fantasy/scott/scott-die-luegen-des-locke-lamora-2.jpeg)
+
 # Mein Fazit
 *Die Lügen des Locke Lamora* ist ein fantastisches Buch, das durch seine spannende Story, die coolen Charaktere und die wirklich tolle Atmosphäre überzeugt. Wenn ihr auf clevere Diebe, moralische Grauzonen gepaart mit ein bisschen Magie steht, dann ist dieses Buch genau das Richtige für euch.
 
