@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
+                "file": "fantasybooks/the-will-of-the-many/The will of the many.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
+                "file": "fantasybooks/the-will-of-the-many/The will of the many.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
+                "file": "fantasybooks/the-will-of-the-many/The will of the many.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md"
+                "file": "fantasybooks/the-will-of-the-many/The will of the many.md"
               }
             }
           }
@@ -143,15 +143,20 @@
       "canvas:Neuen Canvas erstellen": false,
       "daily-notes:Heutige Notiz öffnen": false,
       "templates:Vorlage einfügen": false,
-      "command-palette:Befehlspalette öffnen": false
+      "command-palette:Befehlspalette öffnen": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "30573856a0143ba1",
+  "active": "6f6dde6df0d04764",
   "lastOpenFiles": [
+    "fantasybooks/template/index.md",
+    "fantasybooks/the-will-of-the-many/The will of the many.md",
+    "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md",
+    "fantasybooks/fantasybook-2/templateBook.mdx",
+    "fantasybooks/index.md",
+    "fantasybooks/Unbenannt",
     "fantasybooks/sanderson-brandon-weit-ueber-der-smaragdgrünen-see/sanderson-weit-ueber-der-smaragdgruenen-see-fanart.webp",
     "fantasybooks/sanderson-brandon-weit-ueber-der-smaragdgrünen-see/sanderson-weit-ueber-der-smaragdgruenen-see-fanart-2.webp",
-    "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/scott-die-luegen-des-locke-lamora.jpeg",
-    "fantasybooks/fantasybook-2/index.mdx",
-    "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/index.md"
+    "fantasybooks/lynch-scott-die-luegen-des-locke-lamora-gentlemen-bastard-1/scott-die-luegen-des-locke-lamora.jpeg"
   ]
 }
