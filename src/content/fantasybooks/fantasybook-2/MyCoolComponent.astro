@@ -1,0 +1,70 @@
+---
+// Props to be passed into the component
+interface Props {
+  title: string;
+  author: string;
+  publicationDate: string;
+  description: string;
+  image?: string;
+  link?: string;
+}
+
+const { title, author, publicationDate, description, image, link } = Astro.props;
+---
+
+<article class="book-card">
+  {image && (
+    <img src={image} alt={`Cover of ${title}`} class="book-image" />
+  )}
+  <div class="book-info">
+    <h2 class="book-title">{title}</h2>
+    <p class="book-author"><strong>Author:</strong> {author}</p>
+    <p class="book-date"><strong>Published:</strong> {publicationDate}</p>
+    <p class="book-description">{description}</p>
+    {link && (
+      <a href={link} class="book-link" target="_blank" rel="noopener noreferrer">Learn more</a>
+    )}
+  </div>
+</article>
+
+<style>
+.book-card {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.book-image {
+  max-width: 150px;
+  margin-right: 1rem;
+  border-radius: 4px;
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.book-author, .book-date, .book-description {
+  margin: 0.5rem 0;
+}
+
+.book-link {
+  margin-top: auto;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.book-link:hover {
+  text-decoration: underline;
+}
+</style>
