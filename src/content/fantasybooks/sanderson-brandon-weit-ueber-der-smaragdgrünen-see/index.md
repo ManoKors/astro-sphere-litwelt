@@ -40,7 +40,7 @@ In einer Autorennotiz erwähnt Sanderson, dass die Inspiration für *Weit über 
 
 Der Roman unterscheidet sich stark von Sandersons epischen Reihen wie Die Sturmlicht-Chroniken oder Mistborn, bietet jedoch eine erfrischende Abwechslung durch seinen leichten Ton und die kürzere Form. Leser, die Freude an intelligent konzipierten Welten und magischen Systemen haben, werden hier voll auf ihre Kosten kommen.
 
-![Tress aus »Weit über der Smaragdgrünen See«](/images/fantasy/sanderson/weit-ueber-der-smaragdgruenen-see/sanderson-weit-ueber-der-smaragdgruenen-see-fanart.jpeg)
+![Tress aus »Weit über der Smaragdgrünen See«](sanderson-weit-ueber-der-smaragdgruenen-see-fanart.jpeg)
 
 # Mein Fazit
 *Weit über der smaragdgrünen See* ist ein charmantes und fantasievolles Buch, das trotz seines leichten Tons klug und clever bleibt. Sanderson gelingt es, eine faszinierende Welt zu erschaffen und mit einem einzigartigen Magiesystem zu überraschen. Die Geschichte von Tress ist herzerwärmend und unterhaltsam, und die positiven Vibes des Buches machen es zu einem echten Lesevergnügen. Für Fans von Sanderson und Neueinsteiger gleichermaßen ist dieses Buch ein absolutes Highlight.
