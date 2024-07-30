@@ -15,6 +15,7 @@ const series = collection === "fantasybooks" ? data.series : null
 const bookAuthor = collection === "fantasybooks" ? data.bookauthor : null
 const demoUrl = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
 const repoUrl = collection === "projects" || collection === "fantasybooks" ? data.repoUrl : null
+const amazon = collection === "projects" || collection === "fantasybooks" ? data.demoUrl : null
 
 const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLowerCase()}` : null
 ---
@@ -71,7 +72,7 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
     }
   </div>
 
-  {(demoUrl || repoUrl) && 
+  {(demoUrl || repoUrl || amazon) && 
   <div class="mt-4 flex flex-wrap gap-2">
     {demoUrl && 
       <a href={amazon} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15">
