@@ -13,6 +13,7 @@ tags:
 - Piraten
 demoUrl: https://astro-sphere-demo.vercel.app
 repoUrl: https://github.com/markhorn-dev/astro-sphere
+amazon: https://amzn.to/4fhD5Lo
 coverImage: "/cover/sanderson-weit-ueber-der-smaragdgrünen-see.webp"
 ---
 
