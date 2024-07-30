@@ -1,59 +1,119 @@
 ---
 import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
-import TopLayout from "@layouts/TopLayout.astro"
-import BottomLayout from "@layouts/BottomLayout.astro"
-import { WORK } from "@consts"
+import ArrowCard from "@components/ArrowCard"
+import StackCard from "@components/StackCard.astro"
+import { SITE, SOCIALS } from "@consts"
 
-const collection = await getCollection("work")
+const posts = (await getCollection("blog"))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
 
-collection.sort((a, b) => new Date(b.data.dateStart).getTime() - new Date(a.data.dateStart).getTime())
+const projects = (await getCollection("projects"))
+  .filter(project => !project.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
 
-const work = await Promise.all(
-  collection.map(async (item) => {
-    const { Content } = await item.render()
-    return { ...item, Content }
-  })
-)
+const fantasybooks = (await getCollection("fantasybooks"))
+  .filter(fantasybook => !fantasybook.data.draft)
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0,3)
 
-function formatWorkDate(input: Date | string) {
-  if (typeof input === "string") return input
+const tags = Array.from(new Set([
+  ...posts.flatMap(post => post.data.tags || []),
+  ...projects.flatMap(project => project.data.tags || []),
+  ...fantasybooks.flatMap(fantasybook => fantasybook.data.tags || [])
+]));
 
-  const month = input.toLocaleDateString("en-US", {
-    month: "short",
-  })
-
-  const year = new Date(input).getFullYear()
-  return `${month} ${year}`
-}
 ---
+<PageLayout title="Author Profile" description="Overview of the author's works and related tags">
 
-<PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
-  <TopLayout>
-    <div class="animate page-heading">
-      {WORK.TITLE}
+  <!-- Author Image and Biography -->
+  <section class="relative w-full p-5 flex flex-col items-center">
+    <img src="/path/to/author-image.jpg" alt="Author" class="rounded-full w-32 h-32 mb-4" />
+    <div class="text-center">
+      <h1 class="text-2xl font-bold">Astro Sphere</h1>
+      <p class="text-lg mt-2">
+        I am a <b><i>software engineer</i></b>, <b><i>ui/ux designer</i></b>, 
+        <b><i>product planner</i></b>, <b><i>mentor</i></b>, 
+        <b><i>student</i></b>, <b><i>minimalist</i></b>, 
+        <b><i>eternal optimist</i></b>, <b><i>crypto enthusiast</i></b>, 
+        and <b><i>sarcasm connoisseur</i></b>.
+      </p>
+      <p class="mt-2">
+        I enjoy building and breaking things, tackling challenging projects, 
+        and crafting creative front-end designs with unique takes on color, 
+        typography, and motion.
+      </p>
     </div>
-  </TopLayout>
-  <BottomLayout>
-    <ul>
-      { 
-        work.map((entry) => (
-          <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
-            <div class="text-sm uppercase mb-4">
-              {formatWorkDate(entry.data.dateStart)} - {formatWorkDate(entry.data.dateEnd)}
-            </div>
-            <div class="text-black dark:text-white font-semibold">
-              {entry.data.company}
-            </div>
-            <div class="text-sm font-semibold">
-              {entry.data.role}
-            </div>
-            <article class="prose dark:prose-invert">
-              <entry.Content />
-            </article>
-          </li>
-        ))
-      }
-    </ul>
-  </BottomLayout>
+  </section>
+
+  <!-- Works Overview -->
+  <section class="p-5 space-y-12">
+    <div class="space-y-4">
+      <h2 class="text-xl font-semibold text-center">Works</h2>
+
+      <!-- Blog Posts -->
+      <div>
+        <h3 class="text-lg font-semibold">Recent Blog Posts</h3>
+        <ul class="space-y-4">
+          {posts.map((post) => (
+            <li>
+              <ArrowCard entry={post} />
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Projects -->
+      <div>
+        <h3 class="text-lg font-semibold">Recent Projects</h3>
+        <ul class="space-y-4">
+          {projects.map((project) => (
+            <li>
+              <ArrowCard entry={project} />
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Fantasy Books -->
+      <div>
+        <h3 class="text-lg font-semibold">Recent Fantasy Books</h3>
+        <ul class="space-y-4">
+          {fantasybooks.map((fantasybook) => (
+            <li>
+              <ArrowCard entry={fantasybook} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tags Overview -->
+  <section class="p-5">
+    <h2 class="text-xl font-semibold text-center">Related Tags</h2>
+    <div class="flex flex-wrap justify-center gap-2 mt-4">
+      {tags.map(tag => (
+        <span class="px-3 py-1 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300">
+          {tag}
+        </span>
+      ))}
+    </div>
+  </section>
+
+  <!-- Social Media Links -->
+  <section class="p-5">
+    <h2 class="text-xl font-semibold text-center">Let's Connect</h2>
+    <div class="flex justify-center gap-4 mt-4">
+      {SOCIALS.map(social => (
+        <a href={social.HREF} target="_blank" class="underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+          {social.NAME}
+        </a>
+      ))}
+    </div>
+  </section>
+
 </PageLayout>
