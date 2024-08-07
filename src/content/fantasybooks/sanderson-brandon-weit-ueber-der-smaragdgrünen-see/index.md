@@ -47,6 +47,6 @@ Der Roman unterscheidet sich stark von Sandersons epischen Reihen wie Die Sturml
 *Weit über der smaragdgrünen See* ist ein charmantes und fantasievolles Buch, das trotz seines leichten Tons klug und clever bleibt. Sanderson gelingt es, eine faszinierende Welt zu erschaffen und mit einem einzigartigen Magiesystem zu überraschen. Die Geschichte von Tress ist herzerwärmend und unterhaltsam, und die positiven Vibes des Buches machen es zu einem echten Lesevergnügen. Für Fans von Sanderson und Neueinsteiger gleichermaßen ist dieses Buch ein absolutes Highlight.
 
 # Erwähnte Werke
-*Die Braut des Prinzen* 1987 (Regie: Rob Reiner) https://amzn.to/4cXW8IZ
+- *Die Braut des Prinzen* 1987 (Regie: Rob Reiner) https://amzn.to/4cXW8IZ
 
 
