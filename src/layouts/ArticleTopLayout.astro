@@ -66,35 +66,35 @@ const authorUrl = bookAuthor ? `/autoren/${bookAuthor.replace(/\s+/g, '-').toLow
         {summary}
       </div>
     </div>
-
-    <div class="mt-4 md:mt-0 md:ml-4 md:w-1/3 flex flex-col items-start">
-      {coverImage &&
+    {coverImage &&
+    <div class="mt-4 md:mt-0 md:ml-4 md:w-1/3">
       <img src={coverImage} alt={title} class="rounded w-full"/>
-      }
-      {(demoUrl || repoUrl || amazon) && 
-      <div class="mt-4 flex flex-col gap-2 w-full">
-        {amazon && 
-          <a href={amazon} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15">
-            <svg class="size-4">
-              <use href="/ui.svg#globe" class="fill-current group-hover:fill-black group-hover:dark:fill-white"/>
-            </svg>
-            <span class="text-current group-hover:text-black group-hover:dark:text-white">
-              Amazon
-            </span>
-          </a>
-        }
-        {repoUrl && 
-          <a href={repoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15">
-            <svg class="size-4">
-              <use href="/ui.svg#link" class="fill-current group-hover:fill-black group-hover:dark:fill-white"/>
-            </svg>
-            <span class="text-current group-hover:text-black group-hover:dark:text-white">
-              Thalia
-            </span>
-          </a>
-        }
-      </div>
-      }
     </div>
+    }
   </div>
+
+  {(demoUrl || repoUrl || amazon) && 
+  <div class="mt-4 flex flex-wrap gap-2">
+    {amazon && 
+      <a href={amazon} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15">
+        <svg class="size-4">
+          <use href="/ui.svg#globe" class="fill-current group-hover:fill-black group-hover:dark:fill-white"/>
+        </svg>
+        <span class="text-current group-hover:text-black group-hover:dark:text-white">
+          Amazon
+        </span>
+      </a>
+    }
+    {repoUrl && 
+      <a href={repoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15">
+        <svg class="size-4">
+          <use href="/ui.svg#link" class="fill-current group-hover:fill-black group-hover:dark:fill-white"/>
+        </svg>
+        <span class="text-current group-hover:text-black group-hover:dark:text-white">
+          Thalia
+        </span>
+      </a>
+    }
+  </div> 
+  }
 </div>
