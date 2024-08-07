@@ -14,7 +14,7 @@ tags:
 demoUrl: https://astro-sphere-demo.vercel.app
 repoUrl: https://github.com/markhorn-dev/astro-sphere
 amazon: https://amzn.to/4fDkUjm
-coverImage: "heitz-markus-die-zwerge-piper-cover.webp"
+coverImage: "/cover/heitz-markus-die-zwerge-piper-cover.webp"
 ---
 
 
