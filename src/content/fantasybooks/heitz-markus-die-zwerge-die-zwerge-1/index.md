@@ -1,6 +1,6 @@
 ---
 title: "Die Zwerge"
-summary: "Markus Heitz' Roman "Die Zwerge" ist der Auftakt zu einer epischen High-Fantasy-Reihe, die sich um das Volk der Zwerge dreht. Die Zwerge, die oft in Fantasy-Literatur als Nebenfiguren dargestellt werden, stehen hier im Mittelpunkt und bieten eine erfrischende Perspektive auf das Genre."
+summary: "Markus Heitz Roman »Die Zwerge« ist der Auftakt zu einer epischen High-Fantasy-Reihe, die sich um das Volk der Zwerge dreht. Die Zwerge, die oft in Fantasy-Literatur als Nebenfiguren dargestellt werden, stehen hier im Mittelpunkt und bieten eine erfrischende Perspektive auf das Genre."
 date: "Aug 21 2024"
 series: "Die Zwerge #1"
 bookauthor: "Markus Heitz"
@@ -12,7 +12,7 @@ tags:
 - Zwerge
 - Fantasy
 amazon: https://amzn.to/4fDkUjm
-#coverImage: "/cover/heitz-markus-die-zwerge-piper-cover.webp"
+coverImage: "/cover/heitz-markus-die-zwerge-piper-cover.webp"
 ---
 
 # Einleitung: High Fantasy aus der Perspektive der Zwerge
