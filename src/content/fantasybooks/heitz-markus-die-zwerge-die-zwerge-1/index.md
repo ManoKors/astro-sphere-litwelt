@@ -12,7 +12,7 @@ tags:
 - Zwerge
 - Fantasy
 amazon: https://amzn.to/4fDkUjm
-coverImage: "heitz-markus-die-zwerge-piper-cover.webp"
+coverImage: "src/content/fantasybooks/heitz-markus-die-zwerge-die-zwerge-1/heitz-markus-die-zwerge-piper-cover.webp"
 ---
 
 # Einleitung: High Fantasy aus der Perspektive der Zwerge
