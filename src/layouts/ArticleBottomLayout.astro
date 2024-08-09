@@ -1,29 +1,97 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content"
+import { type CollectionEntry, getCollection } from "astro:content";
+import { useState } from 'react';
 
 type Props = {
   entry: CollectionEntry<"blog"> | CollectionEntry<"projects"> | CollectionEntry<"fantasybooks">
-}
+};
 
 // Get the requested entry
-const { entry } = Astro.props
-const { collection } = entry
-const { Content } = await entry.render()
+const { entry } = Astro.props;
+const { collection } = entry;
+const { Content } = await entry.render();
 
 // Get the next and prev entries (modulo to wrap index)
 const items = (await getCollection(collection))
   .filter(post => !post.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-const index = items.findIndex(x => x.slug === entry.slug)
-const prev = items[(index - 1 + items.length) % items.length]
-const next = items[(index + 1) % items.length]
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const index = items.findIndex(x => x.slug === entry.slug);
+const prev = items[(index - 1 + items.length) % items.length];
+const next = items[(index + 1) % items.length];
+
+// ReviewForm Component
+const ReviewForm = ({ onSubmit }) => {
+  const [rating, setRating] = useState(0);
+  const [comment, setComment] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (rating && comment) {
+      onSubmit({ rating, comment });
+      setRating(0);
+      setComment('');
+    }
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="rating">Bewertung:</label>
+        <select id="rating" value={rating} onChange={(e) => setRating(Number(e.target.value))}>
+          <option value="0">0 Sterne</option>
+          <option value="1">1 Stern</option>
+          <option value="2">2 Sterne</option>
+          <option value="3">3 Sterne</option>
+          <option value="4">4 Sterne</option>
+          <option value="5">5 Sterne</option>
+        </select>
+      </div>
+      <div>
+        <label htmlFor="comment">Kommentar:</label>
+        <textarea
+          id="comment"
+          value={comment}
+          onChange={(e) => setComment(e.target.value)}
+          required
+        />
+      </div>
+      <button type="submit">Bewertung abgeben</button>
+    </form>
+  );
+};
+
+// Handler for form submission
+const handleReviewSubmit = async (review) => {
+  try {
+    const response = await fetch('http://localhost:3000/reviews', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(review),
+    });
+    if (response.ok) {
+      console.log('Bewertung erfolgreich gesendet');
+    }
+  } catch (error) {
+    console.error('Fehler beim Senden der Bewertung:', error);
+  }
+};
 ---
 
 <div>
   <article>
     <Content/>
   </article>
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+  <!-- Review Form Section -->
+  <div class="mt-8">
+    <h2>Hinterlasse eine Bewertung:</h2>
+    <ReviewForm onSubmit={handleReviewSubmit} />
+  </div>
+
+  <!-- Navigation for previous and next posts -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
     <a href={`/${prev.collection}/${prev.slug}`} class="group p-4 gap-3 flex items-center border rounded-lg hover:bg-black/5 hover:dark:bg-white/10 border-black/15 dark:border-white/20 blend">
       <div class="order-2 w-full h-full group-hover:text-black group-hover:dark:text-white blend">
         <div class="flex flex-wrap gap-2">
