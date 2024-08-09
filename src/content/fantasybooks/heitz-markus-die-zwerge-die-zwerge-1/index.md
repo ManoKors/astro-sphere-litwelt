@@ -39,4 +39,4 @@ Trotz der vielen positiven Aspekte hat *Die Zwerge* auch einige Schwächen. Die 
 ## Fazit
 *Die Zwerge* von Markus Heitz ist ein Muss für jeden Fan der High Fantasy. Die packende Handlung, die tiefgründigen Charaktere und die detailreiche Welt der Zwerge machen das Buch zu einem einzigartigen Lesevergnügen. Obwohl es einige Schwächen gibt, überwiegen die Stärken bei weitem. Heitz gelingt es auf eindrucksvolle Weise, den Zwergen seiner Fantasywelt eine Stimme zu geben und sie aus dem Schatten der Nebenfiguren ins Rampenlicht zu rücken.
 
-Für Leser, die nach einer neuen Perspektive in der Fantasy-Literatur suchen und sich von einer fesselnden Geschichte mitreißen lassen möchten, ist *Die Zwerge* eine hervorragende Wahl. Es bleibt spannend zu sehen, wie sich die Reihe in den folgenden Bänden entwickelt und welche Abenteuer Tungdil und seine Gefährten noch erwarten.
+Für Leser, die nach einer neuen Perspektive in der Fantasy-Literatur suchen und sich von einer fesselnden Geschichte mitreißen lassen möchten, ist *Die Zwerge* eine hervorragende Wahl. Insgesamt umfasst die Geschichte um den Zwerg Tungdil und seine Abenteuer fünf Bücher.  
