@@ -45,8 +45,9 @@ body {
 }
 
 main {
-  @apply flex flex-col flex-1 bg-white dark:bg-black;
+  @apply flex flex-col flex-1 bg-white dark:bg-black max-w-[85%] mx-auto;
 }
+
 
 header {
   @apply border-b;
