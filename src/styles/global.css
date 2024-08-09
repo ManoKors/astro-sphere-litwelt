@@ -45,9 +45,8 @@ body {
 }
 
 main {
-  @apply flex flex-col flex-1 bg-white dark:bg-black max-w-[85%] mx-auto;
+  @apply flex flex-col flex-1 bg-white dark:bg-black;
 }
-
 
 header {
   @apply border-b;
@@ -65,9 +64,8 @@ header.scrolled {
 }
 
 article {
-  @apply prose dark:prose-invert max-w-[90%] mx-auto pb-12;
+  @apply prose dark:prose-invert max-w-full pb-12;
 }
-
 
 .page-heading {
   @apply font-semibold text-black dark:text-white;
