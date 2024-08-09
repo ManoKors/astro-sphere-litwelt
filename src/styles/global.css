@@ -64,8 +64,9 @@ header.scrolled {
 }
 
 article {
-  @apply prose dark:prose-invert max-w-full pb-12;
+  @apply prose dark:prose-invert max-w-[90%] mx-auto pb-12;
 }
+
 
 .page-heading {
   @apply font-semibold text-black dark:text-white;
