@@ -1,6 +1,6 @@
 ---
 title: "Ich fürchte, Ihr habt Drachen"
-summary: "Markus Heitz Roman »Die Zwerge« ist der Auftakt zu einer epischen High-Fantasy-Reihe, die sich um das Volk der Zwerge dreht. Die Zwerge, die oft in Fantasy-Literatur als Nebenfiguren dargestellt werden, stehen hier im Mittelpunkt und bieten eine erfrischende Perspektive auf das Genre."
+summary: "Zusammen mit der entschlossenen Prinzessin Cerise und dem leichtsinnigen Prinzen Reginald begibt sich Drachentöter Robert auf eine turbulente Reise, um Drachen zu bekämpfen und ihre eigenen Identitäten zu finden. Der Roman verbindet humorvolle Fantasy mit tiefgründigen Themen wie Selbstfindung und Gesellschaftsrollen und bietet eine charmante, unterhaltsame Erzählung voller Witz und Herz."
 date: "Nov 21 2024"
 bookauthor: "Peter S. Beagle"
 releaseyear: "2024"
