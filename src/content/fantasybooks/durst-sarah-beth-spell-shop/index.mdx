@@ -49,11 +49,14 @@ import FAQDropdown from '@components/FAQDropdown.astro'
 
 ## Frequently Asked Questions
 
-<FAQDropdown question="What is cozy fantasy?" answer="Cozy fantasy is a subgenre of fantasy that focuses on comforting, low-stakes settings, often with an emphasis on community and daily life." />
+import FAQDropdown from '@components/FAQDropdown.astro'
 
-<FAQDropdown question="Who is the author of The Spellshop?" answer="The Spellshop is written by Sarah Beth Durst, an American author known for her fantasy novels." />
+<FAQDropdown client:load question="What is cozy fantasy?" answer="Cozy fantasy is a subgenre of fantasy that focuses on comforting, low-stakes settings, often with an emphasis on community and daily life." />
 
-<FAQDropdown question="Is The Spellshop suitable for young readers?" answer="While The Spellshop is primarily aimed at adult readers, its cozy and gentle tone makes it accessible to younger audiences as well." />
+<FAQDropdown client:load question="Who is the author of The Spellshop?" answer="The Spellshop is written by Sarah Beth Durst, an American author known for her fantasy novels." />
+
+<FAQDropdown client:load question="Is The Spellshop suitable for young readers?" answer="While The Spellshop is primarily aimed at adult readers, its cozy and gentle tone makes it accessible to younger audiences as well." />
+
 
 
 import Author from '@components/Author.astro'

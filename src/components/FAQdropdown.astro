@@ -1,19 +1,10 @@
 ---
 const { question, answer } = Astro.props;
-
-function toggle() {
-  const details = document.getElementById(question) as HTMLDetailsElement;
-  if (details) {
-    details.open = !details.open;
-  }
-}
 ---
 
 <div class="faq-item">
-  <details id={question} class="faq-details">
-    <summary onclick={toggle}>
-      {question}
-    </summary>
+  <details class="faq-details">
+    <summary>{question}</summary>
     <p>{answer}</p>
   </details>
 </div>
