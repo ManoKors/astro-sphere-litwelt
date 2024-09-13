@@ -13,7 +13,7 @@ amazon: https://amzn.to/3B3i6wk
 coverImage: "/cover/durst-sarah-beth-spell-shop-cover.webp"
 ---
 
-Sarah Beth Dursts The Spellshop ist ein Buch, das in der gemütlichen Fantasy – oder cozy fantasy – angesiedelt ist und sich vorwiegend an erwachsene Leser*innen richtet. Es besticht durch eine warme, atmosphärische Erzählweise, zeigt aber auch Schwächen, die nicht ignoriert werden können. Im Folgenden gehe ich auf die wichtigsten Aspekte des Buches ein.
+Sarah Beth Dursts *The Spellshop* ist ein Buch, das in der gemütlichen Fantasy – oder cozy fantasy – angesiedelt ist und sich vorwiegend an erwachsene Leser*innen richtet. Es besticht durch eine warme, atmosphärische Erzählweise, zeigt aber auch Schwächen, die nicht ignoriert werden können. Im Folgenden gehe ich auf die wichtigsten Aspekte des Buches ein.
 
 ## Gestaltung und Cover
 Das Cover vermittelt ein märchenhaftes und charmantes Bild, das sofort an cozy fantasy erinnert. Es ist liebevoll gestaltet und passt perfekt zum Thema des Buches, das Gemeinschaft, Natur und Magie in den Fokus stellt. Insgesamt unterstützt das Cover die harmonische Stimmung, die sich durch das gesamte Buch zieht.
@@ -39,7 +39,7 @@ Ein weiterer Kritikpunkt ist der Plot Twist in der zweiten Hälfte des Buches, d
 ## Fazit und Empfehlung
 The Spellshop ist ideal für Leser*innen, die ruhige, atmosphärische Geschichten mit leichten magischen Elementen und sympathischen Figuren mögen. Das Buch lebt von seiner einladenden Atmosphäre und den schönen Beschreibungen der Gemeinschaft und Natur. Es ist eine perfekte Lektüre für Fans von cozy fantasy und kann besonders in der Herbst- oder Frühlingssaison genossen werden.
 
-Für Fans von actionreicher Fantasy oder ausgeklügeltem Worldbuilding wird es jedoch weniger ansprechend sein. Wer Geschichten wie Die geheime Gesellschaft der ganz besonderen Hexen oder You can't spell treason without tea liebt, wird hier genau das richtige Maß an Wärme und Magie finden.
+Für Fans von actionreicher Fantasy oder ausgeklügeltem Worldbuilding wird es jedoch weniger ansprechend sein. Wer Geschichten wie D*ie geheime Gesellschaft* (Penner: 2023) der ganz besonderen Hexen oder *Can't spell treason without tea* (Thorne: 2022) liebt, wird hier genau das richtige Maß an Wärme und Magie finden.
 
 ### Empfehlung: 
 Perfekt für Leser*innen, die sich in eine gemütliche, fast schon meditative Welt zurückziehen wollen. Weniger geeignet für Fans von epischer Spannung und umfangreichem Worldbuilding.
